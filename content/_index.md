@@ -19,15 +19,15 @@ markup: "mmark"
 {.table .table-condensed .text-left}
  <span></span> | <span></span>            |
 ---------------|--------------------------|
-When           |  Tuesday 09:50 - 12:50am |
-Where          |  AB-5141                 |
+When           | Thursday 08:10 - 11:10am |
+Where          | Online                   |
 
 ## Teaching
 
 {.table .table-condensed .text-left}
  <span></span>     | <span></span>                                                  |
 -------------------|----------------------------------------------------------------|
- Joseph Casillas   | Office hours: AB 5174, Tuesday 8:00 - 9:50am |
+ Joseph Casillas   | Office hours: AB 5174, Monday 9:00 - 9:50am |
  <a href="http://www.jvcasillas.com/" title="homepage"><i class="fa fa-home"></i></a> &nbsp; <a href="mailto:joseph.casillas@rutgers.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; <a href="https://github.com/jvcasillas" title="GitHub"><i class="fa fa-github"></i></a> &nbsp; <a href="https://twitter.com/jvcasill" title="Twitter"><i class="fa fa-twitter"></i></a> | or by appointment |
 
 

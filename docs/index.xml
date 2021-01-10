@@ -38,7 +38,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/components/</guid>
-      <description> Tidy     Visualize     Model     Communicate    Topics:  Tidyverse Importing, cleaning/tidying data Long → wide, wide → long format Subsetting Creating and transforming variables Preparing data for visualization and analysis     Topics:  Grammar of graphics ggplot2     Topics:  Multiple regression and correlation The linear model The generalized linear model Model assessment Model specification     Topics:  RMarkdown knitr papaja xaringan git        </description>
+      <description> Tidy     Visualize     Model     Communicate    Topics:  Tidyverse Importing, cleaning/tidying data Subsetting Creating and transforming variables Preparing data for visualization and analysis     Topics:  Grammar of graphics ggplot2     Topics:  Multiple regression and correlation The linear model The generalized linear model Model assessment Model specification     Topics:  RMarkdown knitr papaja xaringan git        </description>
     </item>
     
     <item>
