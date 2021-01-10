@@ -1,0 +1,26 @@
+# Week 7: The linear model/regression.
+
+**Date**: Tuesday, 02/27 
+
+**Topics**: 
+
+- Stats: The linear model: multiple regression 
+- Programming: R basics, xaringan
+
+**Plan**
+
+- shiny example of diagnostics (in last weeks slides, #42)
+- LM MRC slides
+- Programming
+	- MRC walkthrough
+	- create mrc project
+	- code to slides
+	- download xaringan
+	- show xaringan functionality
+
+**Notes**: 
+
+Good day. For the OR statement I was asked if I good give a 
+'real life' example. Prof. Camacho had a good one to remember 
+for next time... Professors and Staff can park in Lot X... if 
+professor or staff, then you can park.

@@ -1,0 +1,24 @@
+---
+title: "Plotting in R"
+subtitle: "Base, lattice, ggplot2"
+date: "Last update: `r Sys.time()`"
+output: 
+  html_document: 
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[plotting tutorial](http://www.jvcasillas.com/base_lattice_ggplot/)
+
+<meta http-equiv="refresh" content="0; url='http://www.jvcasillas.com/base_lattice_ggplot/'"/>
+
+

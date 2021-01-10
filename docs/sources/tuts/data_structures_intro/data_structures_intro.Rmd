@@ -1,0 +1,19 @@
+---
+title: "Intro to R"
+subtitle: "Data structures"
+date: "Last update: `r format(Sys.time(), '%D')`"
+output: 
+  html_document: 
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+---
+
+add link to tut here
+
+<under construction>
+
+https://jvcasill.shinyapps.io/r_for_linguists/#section-data-structures

@@ -1,0 +1,39 @@
+---
+title: "Readings"
+subtitle: "Week 4"
+output: 
+  html_document: 
+    theme: united
+---
+
+Readings to be completed before week 4 class. 
+
+### Required readings
+
+
+- **QML**: [Ch. 2](http://www.jvcasillas.com/ru_teaching/ru_spanish_589/589_01_s2018/readings/files/qml_ch_1_2.pdf), p. 57-69
+- **R4DS**: Ch. 4 and 5, p. 77-109
+	- If read online: 
+		- [Workflow: Scripts](http://r4ds.had.co.nz/workflow-scripts.html)
+		- [Exploratory Data Analysis](http://r4ds.had.co.nz/exploratory-data-analysis.html)
+
+### Additional resources
+
+- [The tidyverse style guide](http://style.tidyverse.org)
+- [reprex 1](https://dcl-2017-04.github.io/curriculum/reprexes.html)
+- [reprex 2](https://github.com/tidyverse/reprex#what-is-a-reprex)
+- [Data structure basics](https://dcl-2017-04.github.io/curriculum/data-structure-basics.html)
+- [Correlation game](https://gallery.shinyapps.io/correlation_game/)
+- [Standardizing and correlations](https://richarddmorey.shinyapps.io/standardizing_and_correlations/)
+
+
+
+### Key 
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
+

@@ -1,0 +1,75 @@
+Hi Joseph, 
+
+Here are my peer review remarks for the two projects. 
+
+1) Eileen:
+
+Content 
+
+The introduction is good. I get a clear sense of the problem and the goals. 
+
+She gives good information about the speaker. This is really important in an acoustic study and something that is often under-reported. If we don't know about their background, how can we be 100% sure we're getting a full-on, unfettered native speaker of the target language? We tend to give the author the benefit of the doubt, but unless their is full disclosure on the linguistic characteristics of the participants we can't be sure. So I really like when people are as explicit as Eileen is in her paper. 
+
+Another plus - putting the targets in frame sentences. This is becoming more common practice I think but it's really important so you can avoid the phrase-level phonology (final lengthening, initial strengthening) interfering with your results as much as possible.  
+
+I liked her description of the data frame itself and the tidying process, but is it usual to include that information? I'm all for it because I think it's interesting but I'm not sure if it's usually done in a scholarly article. Even if it's not common practice I don't think it does any harm unless you're crunched for space. 
+
+Bottom of page 9 under "short [a] vowels" - I find this paragraph a bit confusing. "[a] vowels, whether or not they are in an /ax/ syllable, would be marked as unstressed (0) if the other vowel in the word is long, for example. " I feel like there is some logical implication here about the state of long vowels such that long -> stressed,  but it's hard to parse. I guess it just needs to be written a bit clearer. 
+
+I note that for duration on both [a] and [schwa] it's pretty darn close to being  p < .05, and so maybe she could've drawn attention to how close it was and called it a non-significant trend or something. 
+
+For F1 in [a] we find no effect of syllable position, but an interaction of stress and syllable position. Then for [schwa] we find that syllable position does have a main effect on F1, and the interaction with stress too. I'm not sure how to interpret this, especially given that for [a] syllable position was pretty clearly not significant at p=0.6031, but it makes me curious if there isn't something there to pursue, or at least to keep an eye on as she works through her 19 new recordings.
+
+One last thing was that I was a bit unclear on how the results reflect on her earlier work with the same data. She says towards the end: "In short, the stress pattern described by previous impressionistic work may not be as inaccurate as Blum (2018) suggests." And while I'm sure she's right about that, I'm not sure that the point is made explicitly enough. In what way is the previous impressionistic work not as inaccurate? In particular I'm not sure how this sentence: "This paper uses linear mixed effects models to show that for two short vowels, [a] and [schwa], an interaction between the described stress pattern and syllable position constrains the distribution of F1 values such that stressed [a] and [schwa] are lower when stressed." is related to what previous accounts said about the stress pattern. Maybe it's just me, and maybe it makes more sense to you, but I was a bit confused.
+
+Other than that I thought it was clearly presented, and liked the inclusion of the relevant statistics. It was by and large easy to follow along and understand. I thought she did a very good job.
+
+Reproducibility 
+
+I fire up the .Rmd file in R on my computer and it knits just fine after I install the lme4 package. That's a good sign! Everything's working and in the right place. I looked at her scripts too and they're nicely organized. Makes it nice and easy to find things. 
+
+I noticed some symbols (dashes, apostrophes, non-\tipa accented vowels) show up as "â.." instead.  I don't know what would cause this but I'm wondering if this isn't a Mac - PC issue. Something to do with font encoding? 
+
+She made nice use of Latex, which I'm kind of jealous of. I tried to Latex going in R on my computer and it wouldn't work, so I gave up since I didn't really need it too badly for this project. I have MikTex and all the packages it comes with on my computer, I am able to use WinEdt just fine to write Latex documents, but when I tried putting Latex code in R it would just print the code like it was normal text. Latex helps makes things look professional, and Eileen was able to incorporate it into her manuscript. 
+
+I see that her manuscript includes the full code for all of the plots. I know you showed us how we could store plots and import them more easily using scripts and the here package. She hasn't done that - and neither did I actually - but doing so is another step in the right direction as far as reproducibility goes, right? It's something I'd like to get more comfortable with in the future. 
+
+Looking at the PDF that is produced, neither of the schwa plots at the end show up - I just get a gray box. I am not sure if this a problem on my end or hers. When I looked at the PDF in her repo everything showed up just fine, but when I open it locally in Chrome or a PDF viewer they're not there. I get one of those weird symbols I mentioned above "É.." instead of a schwa, maybe that's what's messing it up? 
+
+Other than those relatively minor things it looks good to me from a code perspective. It's clear that she took it very seriously and put a lot of time into it. 
+
+2) Chris
+
+Content
+
+The introduction sets up the paper very well. It says, "Bam, here is what I'm doing, and here is why it's important and interesting". This is what you want in an introduction I think. It also lays out the problem very clearly, and in particular gives a good idea of just how messy the previous accounts of the phenomenon are. It seems like a real task trying to read up on all the various accounts in the literature and formulate any kind of coherent picture, so it's clear a good deal of work went into this project. 
+
+Without repeating my comments on Eileen's paper too much, I'll once again say that I really like all the information we get about the participant. This is the kind of stuff we absolutely must be reporting in acoustic studies so that readers can be sure the experimenter tested what they claimed they tested. You can tell both Chris and Eileen were advised by Paul - he really hammers on that stuff. 
+
+I was wondering why he limited himself to nominal forms only? I think he has explained this before maybe. Is this supposed to be the reasoing? "The 58 primary control limited targets to a specific syllabic structure and default stress placement". If so maybe that could've been a little clearer. 
+
+I'm going to repeat myself again, but it's great that the targets were placed in a frame sentence. Really wanna be careful about phrase-level phonology interfering with your results. He does get stuck with a phrase-final target in one of the frame sentences - I think just because of how the language works - but he does the exact right thing which is to keep track of which frame sentence the target came from by coding it as a variable. If he hadn't done this who knows how his results may have been different. So that was good. 
+
+There is an excellent amount of detail about the experiment itself in the paper here. I also like how the hypotheses are laid out and numbered. I've noticed that in a lot of papers (published ones even) they don't always make it as clear as I think they should and I kind of have to read between the lines to discern what the writer is actually testing for. People should be hitting readers over the head with their hypotheses! 
+
+The statistical analysis and the ensuing discussion were top-notch. All I really have to say for this part is great job to Chris. I do wish he could've got some of the figures in the actual text and I know he struggled with that, but really good work overall. 
+
+Reproducibility 
+
+After opening the .Rmd file and trying to knit I find that I need the kableExtra package. After installing that, I run it and it works just fine. So just like Eileen's manuscript, everything is in the right place and working well. Good indication of reproducibility. All of his plots and tables display just fine when I open them locally.
+
+Chris also seems to have some basic Latex text formatting working for him. Still not sure what I was doing wrong in my attempts to incorporate Latex. I'm also noticing some of the same things I saw in Eileen's document, which makes me more suspicious that it's a Mac - PC issue. 
+
+Chris was brave and decided to use the here package to his full advantage. I must say it really makes things look nicer - no giant blob of R code for a plot in the middle of your manuscript code. It is a lot easier to parse visually. This is definitely something I want to get comfortable doing when I use R for my second QP. 
+
+Looking at his scripts reveals just how much work went into getting the data in a form he could work with. Some of things look like they took some serious time to figure out, and it really shows in the results he is able to produce. I also notice that both Chris and Eileen commented their scripts to make it easier to find things. I really, really should have done that. 
+
+All in all, I think Chris did a really good job.
+
+_______________________________________________________________________
+
+
+Okay, that's what I came up with. I think I commented Chris and Eileen's work for the previous assignment as well. I would have waited and reviewed some other students' work but I'll be travelling outside the country starting this Thursday so I wanted to make sure I got the reviews in ASAP. Thanks for reading!
+
+Best,
+Nate

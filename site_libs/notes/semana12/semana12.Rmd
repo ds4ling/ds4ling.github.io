@@ -1,0 +1,26 @@
+# Week 12: Generalized linear model. 
+
+**Date**: Tuesday, 04/10  
+
+**Topics**: 
+
+- Stats: GLM, logistic regression
+- Programming: practicing logistic regression
+
+**Plan**  
+
+- Go over schedule
+	- Online presentations due.
+	- Comments due next week 
+		- show how/where
+		- 1 comment, 1 question, for 2 presentations
+		- update datasci_assignments for links
+	- Research projects presentations 4/24
+- GLM slides
+- Logistic regression walk through 
+	- fitting models
+	- interpreting output
+	- plotting
+- Mid-term review
+
+**Notes**: 

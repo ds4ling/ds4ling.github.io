@@ -1,0 +1,26 @@
+# Week 9: General linear model.
+
+**Date**: Tuesday, 03/20 
+
+**Topics**: 
+
+- Stats: General linear model, dummy variables
+- Programming: papaja continued, practice regression
+
+**Plan**
+
+- GLM slides (2 hrs!)
+- Programming
+	- download dummy practice zip
+	- in pairs work through examples, 
+	stop occasionally to do parts together
+	- This is practice for the midterm
+	- Focus on interpreting dummy variables, 
+	nested model comparisons, and writing up results
+
+**Notes**: 
+
+Great class. Slides took a much longer time 
+than expected, but the programming went much 
+quicker. I supplied the students with the 
+project folder as opposed to having them create it in class. 

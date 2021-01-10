@@ -1,0 +1,128 @@
+---
+title: "Proficiency as a function of age and aptitude"
+author: "Julio Lopez"
+date: "`r Sys.Date()`"
+output: 
+  html_document: 
+    highlight: pygments
+    theme: cerulean
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load packages
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+```
+
+## Load data
+```{r}
+dataset <- read_csv("./data_raw/pa_5_data/lang_data_raw.csv")
+head(dataset)
+```
+
+## Tidy data
+Separate id into three columns: participant id, gender, and age
+```{r}
+data1 <- dataset %>%
+separate(., col = id, into = c("id", "gender", "age"), sep = "_")
+head(data1)
+```
+
+## Create composite_score
+```{r}
+final <- mutate(data1, composite_score = log(iq/ 80) + log(motivation))
+str(final$composite_score)
+```
+
+## Descriptive statistics
+```{r}
+data_younger <- final %>% filter(., age != "older")
+head(data_younger)
+data_older <- final %>% filter(., age == "older")
+head(data_older)
+```
+Younger  | Mean | Standard deviation |  Median
+------------- | ------------- | ------------- | -------------
+Prof  | `r mean(data_younger$prof)`  | `r sd(data_younger$prof)` | `r median(data_younger$prof)`
+Aptitude  | `r mean(data_younger$composite_score)`  | `r sd(data_younger$composite_score)` | `r median(data_younger$composite_score)`
+
+Older  | Mean | Standard deviation |  Median
+------------- | ------------- | ------------- | -------------
+Prof  | `r mean(data_older$prof)`  | `r sd(data_older$prof)` | `r median(data_older$prof)`
+Aptitude  | `r mean(data_older$composite_score)`  | `r sd(data_older$composite_score)` | `r median(data_older$composite_score)`
+
+From the descriptive statistics, we can infer that younger learners are more proficient than older learners. However, it seems that there are not differences in aptitude.
+
+## Plot the data
+```{r}
+ggplot(data = final, aes(x = age, y = prof, color = composite_score)) +
+    geom_point() +
+    labs(x = 'Age', y = 'Proficiency', 
+       title = 'Proficiency and aptitude as a function of age')
+```
+From this plot, we can infer that younger learners are more proficient than older learners. Also, in the older group, we can observe that the least proficient learners do not have a high aptitude, while the most proficient learners in the older group have a high aptitude score.
+
+## Models
+Determine if proficiency scores vary as a function of age and composite_score. Fit the appropriate model. Test the two-way interaction, the main effect of age, and the main effect of composite_score.
+
+Fit a null model
+```{r, 'mod_null'}
+mod_null <- lm(prof ~ 1, data = final)
+```
+
+Add a categorical predictor: age
+```{r, 'mod_age'}
+mod_age <- lm(prof ~ age, data = final)
+summary(mod_age)
+```
+
+Add a continuous covariate
+```{r, 'mod_agecs'}
+mod_agecs <- lm(prof ~ age + composite_score, data = final)
+summary(mod_agecs)
+```
+
+Include an interaction term
+```{r, mod_int}
+mod_int <- lm(prof ~ age + composite_score + age:composite_score, data = final)
+summary(mod_int)
+```
+
+## Test main effects and interaction term
+
+```{r}
+anova(mod_null, mod_age, mod_agecs, mod_int)
+```
+
+## Best model
+```{r}
+summary(mod_int)
+```
+
+## Test model assumptions
+
+The mean of residuals is zero
+```{r}
+mean(mod_int$residuals)
+```
+
+No autocorrelation
+```{r}
+cor.test(final$prof, mod_int$residuals)
+acf(mod_int$residuals)
+```
+
+## Write up the results
+
+You should include a description of the statistical analyses you have done in one paragraph, and the actual results in another. Don't forget to include an overall assessment of goodness of fit (variance explained).
+
+The proficiency data were analyzed using a general linear model. Estimated proficiency was the criterion with age (older/younger) and aptitude as predictors. Main effects and the age by aptitude  interaction were assessed using nested model comparisons. Experiment-wise alpha was set at 0.05.
+
+There was a main effect of age (F(1) = 67.05, p < 0.001), aptitude (F(1) = 84.67, p < 0.001), as well as an age by aptitude interaction (F(1) = 9.81, p = 0.002). The model containing the interaction provided the best fit of the data (R2 = 0.44).
+Overall, proficiency decreased as a function of age. However, the size of the effect was modulated by aptitude. Specifically, younger learners showed an increase of approximately 0.35 proficiency scores +/- 0.07 se (t = 4.75, p < 0.001) when compared to older learners. Also, older learners showed an increase of 0.91 proficiency scores +/- 0.1 se (t = 8.72, p < 0.001) per aptitude score. However, youngers readers showed a decrease of 0.46 proficiency points +/- 0.14 se (t = -3.13, p = 0.002) when considering the interaction between age and aptitude.

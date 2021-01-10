@@ -1,0 +1,28 @@
+# Week 5: The linear model/regression.
+
+**Date**: Tuesday, 02/13 
+
+**Topics**: 
+
+- Stats: The linear model: regression (1 hr)
+- Programming: PA3 assigned, R basics, GitHub Pages (1hr 30 min)
+
+**Plan**
+
+- talk about PA3
+- regex example
+- LM slides
+- github pages
+	- create project
+	- create .Rmd file
+	- show knitr options
+	- get some descriptives
+	- fit a model (two continuous variables)
+	- print model summary
+	- create new repo
+	- turn on github pages 
+
+**Notes**: 
+
+Good stuff. The programming walkthrough took longer than expected, good 
+use of time. 

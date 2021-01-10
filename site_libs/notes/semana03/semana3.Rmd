@@ -1,0 +1,18 @@
+# Week 3: NHST, comparing means.
+
+**Date**: Tuesday, 01/30 
+
+**Topics**: 
+
+- Stats: Hypothesis testing, comparing means
+- Programming: PA2 assigned, R basics, getting/tidying data, ggplot
+
+**Plan**
+
+- NHSP ppt (1 hr 20 min)
+- dplyr walkthrough
+
+**Notes**: 
+
+- Good class
+- No major issues

@@ -1,0 +1,23 @@
+# Week 13: Generalized linear model. 
+
+**Date**: Tuesday, 04/17  
+
+**Topics**: 
+
+- Stats: GLM, poisson regression
+- Programming: practicing poisson regression, project management
+
+**Plan**  
+
+- Go over schedule
+	- Comments due  
+	- Research projects presentations 4/24
+- GLM slides
+- Poisson regression walk through 
+	- fitting models
+	- interpreting output
+	- plotting
+	- saving plots
+	- projects
+
+**Notes**: 

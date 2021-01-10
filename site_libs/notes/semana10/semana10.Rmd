@@ -1,0 +1,25 @@
+# Week 10: General linear model.
+
+**Date**: Tuesday, 03/27 
+
+**Topics**: 
+
+- Stats: tuning LMs
+- Programming: practice
+
+**Plan**  
+
+- GLM slides (3 hrs)
+- Programming (didnt start)
+	- download tuning practice zip
+	- load data
+	- mutate for model tuning
+	- plot and assess
+
+**Notes**: 
+
+- For next time, must split todays talk into two parts, model tuning 1 and 2
+- week one is about coding factor
+- week two is about transforming continuous predictors
+- week 1 taught before mid term
+- week 2 taught after glm

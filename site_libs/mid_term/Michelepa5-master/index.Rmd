@@ -1,0 +1,102 @@
+---
+title: "pa5"
+author: "Michele Goldin"
+date: "4/3/2018"
+output: html_document
+---
+
+##Load data
+
+```{r, load data}
+library(tidyverse)
+
+langdata <- read.csv('./data_raw/pa_5_data/lang_data_raw.csv', header = TRUE, sep = ',')
+
+head(langdata)
+#View(langdata)
+
+```
+
+## Tidy data
+
+Create a new column called age and a new column called sex (though it may not be used in analysis later)
+
+```{r, tidy}
+tidylangdata <- langdata %>%
+  separate(., col = id, into = c('id', 'sex', 'age'), sep="_")
+  
+#View(tidylangdata)  
+
+```
+
+
+## Create new variable
+
+
+```{r, new variable}
+final_langdata <- tidylangdata%>%
+  mutate(., comp_apt_score = log(iq / 80) + log(motivation))
+
+#View(final_langdata)  
+
+#Check normality
+
+hist(final_langdata$comp_apt_score)
+hist(final_langdata$prof)   
+
+```
+
+##Descriptive statistics
+
+Calculate the mean and SD proficiency score and comp_apt_score by age
+
+```{r, descriptives}
+final_langdata %>%
+group_by(., age) %>%
+summarize(., mean_prof = mean(prof), SD_prof = sd(prof), mean_comp = mean(comp_apt_score), SD_comp = sd(comp_apt_score)) %>%
+knitr::kable(., format = 'markdown', digits = 2)
+
+```
+
+As we can see in the table, the mean proficiency score is higher for younger learners than for older learners, but both groups have the same mean language aptitude score.
+
+##Plot the data
+
+```{r, plot}
+final_langdata%>%
+  ggplot(., aes (x = comp_apt_score, y = prof, color = age)) +
+      geom_point() +
+      geom_smooth(method = lm)
+
+```
+
+Figure 1 shows the proficiency and language aptitude scores of the older and younger learner groups. Overall, younger learners have higher proficiency scores than older learners and proficiency seems to increase with higher language aptitude scores. However, older learners with higher language aptitude also have higher proficiency scores.
+
+##Nested model comparison
+
+```{r, nmc}
+mod_full <- lm(prof ~ age + comp_apt_score + age:comp_apt_score, data = final_langdata)
+mod_int <- lm(prof ~ age + comp_apt_score, data = final_langdata)
+mod_comp <- lm(prof ~ age, data = final_langdata)
+mod_age <- lm(prof ~ comp_apt_score, data = final_langdata)
+mod_null <- lm(prof ~ 1, data = final_langdata)
+
+anova(mod_int, mod_full)
+
+anova(mod_comp, mod_int)
+
+anova(mod_age, mod_int)
+
+anova(mod_int, mod_age) #change the order in order to get the F statistic
+
+anova(mod_null, mod_int, mod_comp, mod_age) #keep interaction, age is significant; comp is not significant
+
+summary(mod_full)
+
+```
+
+##Results
+
+The language data were analyzed using a general linear model to test the effect of proficiency as a function of age and language aptitude. Proficiency was set as the dependent variable and age (younger/older) and language aptitude were set as the predictors. Older learners were dummy coded as the referent group. Main effects and the age by language aptitude interaction were assessed using nested model comparisons. Experiment-wise alpha was set at 0.05. 
+
+There was a main effect of age (F(1) = 81.05, p < 0.001) and language aptitude (F(1) = 61.44; p < .003), as well as an age by language aptitude interaction (F(1) = 9.81; p < 0.002). The model containing the interaction provided the best fit of the data (R2 = 0.44). Overall and as hypothesized, younger learners achieved higher proficiency scores. However, the size of the effect was modulated by language aptitude. In both groups, as language aptitude scores increased so did proficiency scores.

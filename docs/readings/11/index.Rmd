@@ -1,0 +1,20 @@
+---
+title: "Readings"
+subtitle: "Week 11"
+output: 
+  html_document: 
+    theme: united
+---
+
+Exam week. Review everything. 
+
+Key: 
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
+
+

@@ -1,0 +1,31 @@
+# Week 1: Getting started.
+
+**Date**: Tuesday, 01/16
+
+- Introducciones
+- Programa de la asignatura (ppt)
+- Sakai
+- Página web
+- Getting started ppt
+	- Slack
+	- R/RStudio
+	- GitHub
+		- Go to www.github.com, Create an account by clicking “Sign up”.
+		- Download GitHub Desktop App, sign in to account, install command line tools
+		- explain repos
+		- fork datasci_assignments (https://github.com/jvcasillas/datasci_assignments)
+		- clone datasci_assignments to personal PC using desktop app
+		- talk about file organization, naming and paths
+		- editing (add a link)
+		- commit and push changes (show differences between local, online, and master)
+		- submit pull requests
+		- merge pull request
+		- fetch changes
+		- talk about why
+- PA1
+
+
+**Notes**: 
+
+- Should include DS_store in gitignore. 
+- Did not talk about fetching.

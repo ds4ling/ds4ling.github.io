@@ -1,0 +1,60 @@
+<b>Note:</b> Subject to change depending on the needs of the class.
+
+<br><br>
+
+<table class="table" style="max-width:900px;margin-left:auto;margin-right:auto">
+  <tr>
+    <th style="width:10%;text-align:left">Date</th>
+    <th style="width:50%">Lesson</th>
+    <th style="width:7%;text-align:center">Readings</th>
+    <th style="width:7%;text-align:center">Slides</th>
+    <th style="width:7%;text-align:center">PA</th>
+  </tr>
+
+  {{ range $.Site.Data.lessons }}
+    {{range . }}
+    <tr>
+      <td align="left">{{ .date }}</td>
+      <td>{{ .title }}</td>
+      {{ if .readings }}
+      <td align="center"><a href="{{ .Site.baseurl }}/readings/{{ .readings }}">
+          <i class="fa fa-book fa-lg"></i></a></td>
+      {{ else }}
+        <td align="center"><font color="f1f1f1">
+          <i class="fa fa-book fa-lg"></i></font></td>
+      {{ end }}
+
+      {{ if .slides }}
+      <td align="center"><a href="{{ .Site.baseurl }}/slides/{{ .slides  }}">
+          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
+      {{ else }}
+        <td align="center"><font color="f1f1f1">
+          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
+      {{ end }}
+
+      {{ if .assignments }}
+      <td align="center"><a href="{{ .Site.baseurl }}/assignments/{{ .assignments }}">
+          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
+      {{ else }}
+        <td align="center"><font color="f1f1f1">
+          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
+      {{ end }}
+
+    </tr>
+    {{ end }}
+  {{ end }}
+
+</table>
+
+<p>Printable versions: <a href="https://www.jvcasillas.com/ru_teaching/ru_spanish_589/589_01_s2018/sources/docs/589_01_s2018_syllabus.pdf">syllabus</a> | <a href="https://www.jvcasillas.com/ru_teaching/ru_spanish_589/589_01_s2018/readings/files/589_reading_list.pdf">readings</a>
+</p>
+
+<p>Tutorials <a href="https://www.jvcasillas.com/ru_teaching/ru_spanish_589/589_01_s2018/sources/tuts/index.html">here</a>
+</p>
+
+<p>Online presentation info <a href="https://www.jvcasillas.com/ru_teaching/ru_spanish_589/589_01_s2018/assignments/06_online_presentation/index.html">here</a>
+</p>
+
+<p>PA 5 project <a href="https://www.jvcasillas.com/ru_teaching/ru_spanish_589/589_01_s2018/assignments/pa5_answers.zip">here</a>
+</p>
+

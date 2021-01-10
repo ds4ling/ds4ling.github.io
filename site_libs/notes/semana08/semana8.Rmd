@@ -1,0 +1,25 @@
+# Week 8: The linear model/regression.
+
+**Date**: Tuesday, 03/06 
+
+**Topics**: 
+
+- Stats: The linear model: model specification, 
+multicollinearity, reporting results
+- Programming: papaja
+
+**Plan**
+
+- LM model MRC continued (70 minutes)
+- Programming
+	- Download LaTeX (miktex)
+	- online presentations
+	- mid term
+	- PA4
+	- model selection walkthrough
+	- papaja
+
+**Notes**: 
+
+good stuff, papaja errors abound, should try to do more 
+testing with tinytex beforehand

@@ -1,0 +1,25 @@
+# Week 6: The linear model/regression.
+
+**Date**: Tuesday, 02/20 
+
+**Topics**: 
+
+- Stats: The linear model: assumptions, diagnostics, interpretation (1 hr 10 min)
+- Programming: R basics, iosides, GitHub Pages (1hr 30 min)
+
+**Plan**
+
+- regex example
+- LM assumptions slides
+- Programming
+	- Assumptions walkthrough
+	- create project
+	- create .Rmd file
+	- create data, slides, and scripts directories
+	- put script code in ioslides
+	- create new repo
+	- turn on github pages 
+
+**Notes**: 
+
+Good stuff.

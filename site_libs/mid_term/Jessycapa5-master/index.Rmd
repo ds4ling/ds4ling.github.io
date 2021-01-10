@@ -1,0 +1,144 @@
+---
+title: "Programming Assignment 5"
+author: "Jessyca Campos"
+date: "4/3/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load libraries
+
+``` {r, load_library, messages = FALSE}
+library(tidyverse)
+```
+
+# Load the dataset
+
+``` {r, load_data}
+ untidy_data <- read.csv("./data_raw/lang_data_raw.csv")
+ head(untidy_data)
+```
+
+
+# Tidy the dataset
+The first step is to tidy the dataset. In order for a dataset to be tidy each variable must have its own column and each value must be in a cell. After using separate, the data is tidy.
+``` {r, tidy_dataset}
+tidy <- untidy_data %>%
+  separate(id, into = c("id", "sex", "age"), sep = '_')
+```
+
+# Create variable composite_score 
+
+``` {r, create_var}
+tidy_comp <- tidy %>%
+  mutate(., composite_score = log(iq / 80) + log(motivation))
+  head(tidy_comp)
+```
+
+# Descriptive Statistics
+Create a table of descriptive statistics 
+```{r, descriptive_stats}
+tidy_comp %>%
+  group_by(., age) %>%
+  summarize(., mean_prof = mean(prof), sd_prof = sd(prof)) %>%
+  knitr::kable(., format = 'html', digits = 2)
+``` 
+## Observations
+The mean proficiency for the group of younger participants was high than that of the group of older participants. This backs our hypothesis that younger people learn languages better than older people. 
+
+# Plot the data 
+
+``` {r, plot}
+tidy_comp %>%
+  ggplot(., aes( x = composite_score, y = prof, color = age)) + 
+  geom_point() + 
+  geom_smooth(method = lm)
+```
+  ## interpretation
+The plot of the data shows a positive correlation between the composite scores of the participant and their proficiency. As the participants composite score increases so does their proficiency. You can also see that the group of younger participants have higher composite scores and proficiencies. This is in line with our hypothesis that younger participants have an easier time learning a second language. 
+
+#10 Model
+Determine if proficiency scores vary as a function of age and composite_score. 
+``` {r, model}
+prof_age_mod <- lm(prof ~ age                  , data = tidy_comp)
+pro_add_comp <- lm(prof ~ age + composite_score, data = tidy_comp)
+mod1         <- lm(prof ~ age * composite_score, data = tidy_comp)
+
+anova(prof_age_mod, pro_add_comp, mod1)
+```
+
+Overall, the group of younger participants had higher scores than the group of older participants. There was an interaction between the learners language aptitude and their age. The main effect of composite_score 
+
+    
+#11 Model Summary 
+
+``` {r mod_summary}
+  summary(mod1)
+```
+
+## test model assumptions
+1. Check for linearity
+``` {r, model_assumptions}
+mod1 %>%
+    ggplot(., aes(x = composite_score , y = prof, color = age)) +
+    geom_point()
+```   
+The model is linear which is good. 
+    
+2. Mean of residuals should equal 0
+``` {r, residuals}
+mean(mod1$residuals)
+``` 
+The mean of the residuals is basically zero so thats good.
+
+3. Check normality of residuals
+``` {r, resid_normality}
+hist(residuals(mod1))
+qqnorm(residuals(mod1))
+```
+The distribution of our data is normal which is good!
+
+#12 Write up
+1. General description:
+The data was analyzed using a general linear model to determine if it truly is easier to learn a second language when you are younger. The criterion for the analysis was the proficiency of the participants. The predictors were the age of the participants, young or old, and the language aptitude of the participants. We took the log of IQ and the estimated motivation of the participants in order to come up with the composite_score variable. Alpha was set at 0.05.
+
+2. Results
+We tested our models and found that the model was linear, the mean of the residuals was zero and the residuals were normally distributed. We tested interactions and found that there was an interaction between the age of the participant and the learner's language aptitude. (f-ratio= 9.8147, p-val=0.001)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

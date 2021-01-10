@@ -1,0 +1,91 @@
+---
+title: "Age sensitive L2 proficiency"
+author: "Dine Mamadou"
+date: "4/3/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r , message=FALSE, warning=FALSE, include=FALSE, fig.width=10, fig.retina=2, echo=FALSE}
+library(tidyverse)
+library(dbplyr)
+library(readr)
+lang_data <- read_csv("data_raw/lang_data_raw.csv")
+
+head(lang_data)
+```
+
+### First six (6) rows of the data frame
+
+```{r , message=FALSE, warning=FALSE, include=TRUE, fig.width=10, fig.retina=2, echo=FALSE}
+
+head(lang_data)
+
+```
+
+```{r , message=FALSE, warning=FALSE, include=FALSE, fig.width=10, fig.retina=2, echo=FALSE}
+#6 tidying the data: seperating id into three new columns(variables)
+lang_data1 <- lang_data %>% 
+  separate(id, into = c("participant", "gender", "age"), sep = "_", remove = T)
+```
+### Motivation as a function of proficiency
+
+```{r , message=FALSE, warning=FALSE, include=TRUE, fig.width=10, fig.retina=2, echo=FALSE}
+lang_data1 %>%
+  select(., -iq, -gender, -participant) %>% 
+  ggplot(., aes(x = motivation, y = prof, color = age)) +
+  geom_point() +
+  geom_smooth(method=lm, se=FALSE)
+
+```
+
+```{r , message=FALSE, warning=FALSE, include=FALSE, fig.width=10, fig.retina=2, echo=FALSE}
+centr_lang_data <- lang_data1 %>%
+  mutate(compAptScore = log(iq / 80) + log(motivation), 
+         compCentr = compAptScore - mean(compAptScore))
+```
+### Descriptive statistics
+Below is the table of descriptive statistics groupped by Age. The table shows a higher (0.67) proficiency mean for younger learners, compared to older learner (0.54). Also, the standard deviation is smaller for younger lerners than it is for older learners.
+
+```{r , message=FALSE, warning=FALSE, include=TRUE, fig.width=10, fig.retina=2, echo=FALSE}
+centr_lang_data %>% 
+  group_by(., age) %>%
+  summarize(., mean_prof = mean(prof), sd_prof = sd(prof),
+            mean_compAptScore = mean(compAptScore), sd_compAptScore = sd(compAptScore)) %>%
+  knitr::kable(digits = 2)
+```
+
+### Plot
+In the plot below, language proficiency improves as the composite aptitude score increases. That is, younger L2 learners learn better than older learners. There's and interaction between older and younger learners. The plot also shows a main effect of the composite aptitude score.
+
+```{r , message=FALSE, warning=FALSE, include=TRUE, fig.width=10, fig.retina=2, echo=FALSE}
+centr_lang_data %>% 
+  ggplot(., aes(x = compCentr, y = prof, color = age)) +
+  geom_point() +
+  geom_smooth(method = lm)
+```
+
+### Models
+Three Models are fitted. We look to see if there's a main effect of age, the composite aptitude score and if there's an interaction of both as per our hypothesis. we found a main effect of age as well the main effect of the composite aptitude scroe but because there's an interaction between age and the composite aptitude score, we'll report that instead. See the summary of the interaction model below.
+
+```{r , message=FALSE, warning=FALSE, include=TRUE, fig.width=10, fig.retina=2, echo=FALSE}
+prof_compAptScore <- lm(prof ~ age + compAptScore:age, data = centr_lang_data)
+summary(prof_compAptScore)
+```
+
+To check whether the assumptions of the model have been met, we looked for homoskedasticity, residuals and so on and the results are in the graphs below.
+```{r , message=FALSE, warning=FALSE, include=TRUE, fig.width=10, fig.retina=2, echo=FALSE}
+plot(prof_compAptScore)
+```
+
+```{r cars}
+```
+
+### Results write-up
+
+The proficiency data was analysed using a general linear model. Proficiency was the criterion with age (younger/older), and the composite aptitude score (CAP) as predictors. Age factor was dummy coded. Main effects and the age by CAP interaction were assessed using the nested model comparisons. Experiment-wise alpha was set at 0.05.
+
+The model containing the interaction provided the best fit of the data (R2 = 0.44). Overall, proficiency increased as a function of the interaction between age and CAP. However, the size of the effect was modulated by age (younger or older). Specifically, younger learners showed an increase of approximately 0.45 points on the proficiency scale +/- 0.10 se (t = 4.29, p < 0.001).

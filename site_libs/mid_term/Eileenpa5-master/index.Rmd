@@ -1,0 +1,87 @@
+---
+title: "PA 5 Midterm"
+author: "Eileen Blum"
+date: "April 3, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Data
+
+```{r, load_data, warning=FALSE, message=FALSE}
+library(tidyverse)
+pa5_data <- read_csv("./data_raw/lang_data_raw.csv")
+head(pa5_data)
+```
+
+## Tidy Data
+
+I used the *separate()* function to move participant identifiers into separate columns so each participant has only a number id and there is a separate column for gender, age, iq, language aptitude, and proficiency.
+
+```{r, tidy_data, warning=FALSE}
+pa5_tidy <- pa5_data %>% #rename the tidy dataset
+  separate(., col = id, into = c('id', 'gender', 'age'), sep = "_") #separate columns
+head(pa5_tidy) #view first 6 lines of resulting tidy data set
+```
+
+## Composite Score
+
+I used the *mutate()* function to create a new column with the composite aptitude scores.
+
+```{r, composite, warning=FALSE}
+pa5_comp <- pa5_tidy %>%
+ mutate(., composite_score = (log(iq / 80) + log(motivation))) #create new column with composite score using mutate() (https://www.jvcasillas.com/ru_teaching/ru_spanish_589/589_01_s2018/slides/05_lm/05_model_tuning/index.html#50)
+head(pa5_comp) #view first 6 lines
+```
+
+## Descriptive Statistics
+
+```{r, stat, message=FALSE, warning=FALSE}
+pa5_stat <- pa5_comp %>%
+  select(., -id, -gender, -age)
+  summary(pa5_stat)
+```
+
+## Plot
+
+Proficiency scores appear to increase as composite scores increase regardless of age. Older subjects had equally high and low composite scores as younger subjects, but the lowest proficiency scores of older subjects were much lower than the lowest proficiency scores of younger subjects. Likewise, the highest proficiency scores of younger subjects were higher than the highest proficiency scores of older subjects. It also appears to be the case that older subjects' proficiency increased as a function of composite score at a faster rate than the proficiency of younger subjects.
+
+```{r, plot, message=FALSE, warning=FALSE}
+pa5_comp %>%
+  ggplot(., aes(x = prof, y = composite_score, color = age)) +
+  labs(x = "Proficiency", y = "Composite Score", color = "Age", title = "Proficiency Scores") +
+  geom_point() +
+  geom_smooth(method = lm, se = FALSE)
+```
+
+## Fit a Model
+
+
+```{r, model, warning=FALSE, message=FALSE}
+pa5_mod <- lm(prof ~ age * composite_score, data = pa5_comp)
+summary(pa5_mod) #tests main effects of younger age, composite score,  and the interaction between the two
+```
+The interaction between age and composite score was shown to be a significant predictor of proficiency for both older and younger participants (F(2) = 62.58 and p < 0.001).
+
+```{r, model_int, warning=FALSE, message=FALSE}
+pa5_modint <- lm(prof ~ age:composite_score, data = pa5_comp)
+summary(pa5_modint) #tests interactions between composite score and age for both older and younger participants
+```
+## Model diagnostics
+
+```{r, resid_autocorr, message=FALSE, warning=FALSE, echo=FALSE}
+acf(pa5_modint$residuals)
+```
+
+```{r, resid_norm, message=FALSE, warning=FALSE, echo=FALSE}
+plot(pa5_modint$residuals)
+```
+
+## Results
+
+  The language learning data were analyzed using general linear mixed models to test the effects of age and a composite language learning score on L2 proficiency. The composite aptitude score was calculated by taking the log iq divided by 80 and adding that to the log of the motivation score. 
+  
+  The interaction between age and composite score was shown to be a significant predictor of proficiency for both older and younger participants (F(2) = 62.58 and p < 0.001). Visual inspection of plots of residuals against fitted values revealed no discernible deviations from normality and homoskedasticity.

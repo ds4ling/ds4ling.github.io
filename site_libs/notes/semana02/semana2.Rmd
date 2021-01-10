@@ -1,0 +1,39 @@
+# Week 2: Distributions
+
+**Date**: Tuesday, 01/23
+
+**Topics**: 
+
+- Stats: Variables, distributions
+- Programming: RStudio projects, RMarkdown, ggplot
+
+**Plan**
+
+- Stats (approx. 1 hour 30 min)
+	- Variables
+	- distributions
+- Programming
+	- PA1 
+		- issues (.DS_Store)
+		- what to do when you mess up
+		- git fetch
+	- RStudio walk through
+		- adj. preferences
+		- file types
+		- installing packages from github
+	- RStudio projects
+		- how to
+		- benefits
+	- ggplot
+	- R scripts
+	- RMarkdown
+	- knitr and kniting
+
+
+
+
+**Notes**: All good. 
+
+
+
+

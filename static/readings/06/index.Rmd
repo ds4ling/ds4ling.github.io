@@ -1,0 +1,38 @@
+---
+title: "Readings"
+subtitle: "Week 6"
+output: 
+  html_document: 
+    theme: united
+---
+
+Readings to be completed before week 6 class. 
+
+### Required readings
+
+- **QASS-57**: Ch. 1, p. 11-28 (review)
+- **QASS-22**: Ch. 2, p. 26-46
+- **R4DS**: Ch. 8 (p. 125-146) and Ch. 21 (p. 423-440)
+	- If read online: 
+		- [Data import](http://r4ds.had.co.nz/data-import.html)
+		- [R Markdown](http://r4ds.had.co.nz/communicate-intro.html)
+- [Slidify tutorial](https://www.jvcasillas.com/slidify_tutorial/index.html)
+
+
+### Additional resources
+
+- [Fit-a-line](http://shinyapps.org/showapp.php?app=http://lmpp10e-mucesm.srv.mwn.de:3838/felix/lmfit&by=Felix%20Schönbrodt&title=Find-a-fit!&shorttitle=Find-a-fit!)
+- [Simple linear regression game](https://gallery.shinyapps.io/simple_regression/)
+- [Bivariate linear regression (shiny)](https://jvcasill.shinyapps.io/shiny_bivariate_regression/)
+
+
+### Key
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
+
+

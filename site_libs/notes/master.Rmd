@@ -1,0 +1,56 @@
+---
+title: "SPAN 589 `r emojifont::emoji('smiley')`"
+subtitle: "Data Science for Linguists"
+author: 'Joseph V. Casillas'
+date: 'Spring 2018 </br>Last updated: `r Sys.Date()`'
+output: 
+  html_document: 
+    highlight: pygments
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+    toc_depth: 1
+---
+
+
+```{r, child='./absences.Rmd'}
+```
+
+
+
+
+
+```{r, echo=FALSE}
+
+# Store all folders in 'notes' directory
+# Use regex to exclude anything with a '.' 
+# (this gets all folders and excludes files)
+folders <- dir(pattern = "^[^.]+$")
+
+# Store number of folders
+my_length <- length(folders)
+
+# Create empty character vector to hold paths 
+children <- vector("character", length = my_length)
+
+# For loop to store paths in 'children' vector 
+# Search only for .Rmd files 
+for (i in 1:length(folders)) {
+  
+  # List .Rmd files in each folder of 'folders'
+  # store output in 'children'
+  children[i] <- list.files(path = folders[i], 
+                            pattern = ".Rmd", 
+                            full.names = TRUE)
+}
+
+# Print children to check folders and respective paths
+# print(children)
+```
+
+\clearpage
+
+
+<!-- Print all children  -->
+```{r, child = children, eval=TRUE}
+```

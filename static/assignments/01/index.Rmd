@@ -1,0 +1,12 @@
+---
+title: "Programming assignment"
+subtitle: "\\#1"
+output: 
+  html_document: 
+    theme: united
+---
+
+
+[datasci_assignments](https://github.com/jvcasillas/datasci_assignments)
+
+<meta http-equiv="refresh" content="0; url='https://github.com/jvcasillas/datasci_assignments#assignment-1'"/>
