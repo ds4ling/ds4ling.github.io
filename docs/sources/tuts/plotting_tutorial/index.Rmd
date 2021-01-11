@@ -17,8 +17,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-[plotting tutorial](http://www.jvcasillas.com/base_lattice_ggplot/)
+[plotting tutorial](https://www.jvcasillas.com/base_lattice_ggplot/)
 
-<meta http-equiv="refresh" content="0; url='http://www.jvcasillas.com/base_lattice_ggplot/'"/>
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/base_lattice_ggplot/'"/>
 
 

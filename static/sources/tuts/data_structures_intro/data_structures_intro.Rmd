@@ -16,4 +16,4 @@ add link to tut here
 
 <under construction>
 
-https://jvcasill.shinyapps.io/r_for_linguists/#section-data-structures
+https://jvcasillas.shinyapps.io/r_for_linguists/#section-data-structures

@@ -39,10 +39,10 @@ for (i in 1:my_length) {
 link_names <- paste0('[', tuts, ']')
 
 # Set base URL
-url_root <- "http://www.jvcasillas.com/"
+url_root <- "https://ds4ling.github.io/"
 
 # Set class-specigic url
-url_class <- "ru_teaching/ru_spanish_589/589_01_s2018/sources/tuts/"
+url_class <- "sources/tuts/"
 
 # Set tutorial-specific url ending
 url_ending <- substr(children, 
