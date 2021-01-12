@@ -6,8 +6,6 @@ output:
     theme: united
 ---
 
-TBA
+[datasci_assignments](https://github.com/ds4ling/programming_assignments)
 
-[datasci_assignments](https://github.com/jvcasillas/datasci_assignments)
-
-
+<meta http-equiv="refresh" content="0; url='https://github.com/ds4ling/programming_assignments#assignment-5'"/>

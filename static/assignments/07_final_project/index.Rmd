@@ -6,5 +6,8 @@ output:
     theme: united
 ---
 
-This is for final projects
+[Final project](https://github.com/ds4ling/projects)
+
+<meta http-equiv="refresh" content="0; url='https://github.com/ds4ling/projects'"/>
+
 
