@@ -17,7 +17,7 @@ Slack is a communication platform we'll use to discuss specific topics outside o
 1. The address of our course slack is: 
 https://ru-datasci4ling.slack.com. You should have received an email 
 invitation to the course slack channel. If not you can click 
-[here](https://join.slack.com/t/ru-datasci4ling/shared_invite/enQtMjkzNDI5NjcyMTc3LTQyZmU5ZGJjNDNkNTY0NzUxNjMwZGU2NzhmYzhiNjY4MWRhY2VjYTY1Mjc2NDhkNzJkYTMyNzJhYmMwNzI2NGQ).
+[here](https://join.slack.com/t/ru-datasci4ling/shared_invite/zt-kx9sghzo-teEa8XE92ACYEeCrDlbh4A).
 
 2. Download the [mobile app][mobile] and/or [desktop apps][desktop] 
 (optional)
