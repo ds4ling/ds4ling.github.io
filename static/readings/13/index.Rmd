@@ -10,7 +10,7 @@ Readings to be completed before week 13 class.
 
 ### Required readings
 
-- LMEM, Something bayesian
+- LMEM
 
 ### Additional resources
 
