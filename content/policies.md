@@ -45,13 +45,17 @@ paper. This presentation must be hosted on GitHub and in HTML format using
 RMarkdown. Aside from creating an online presentation, students will also be 
 required to read and comment on the presentations of two classmates. More 
 information available 
-[here](https://www.jvcasillas.com/ru_teaching/ru_spanish_589/589_01_s2018/assignments/06_online_presentation/index.html)
+[here](https://ds4ling.github.io/assignments/06_online_presentation/index.html)
 
 ### Midterm exam
 
+<!--
 There will be an in-class exam during the 11th week of the semester (April 
-3rd). Details will be provided in class. 
-
+3rd). Details will be provided beforehand. 
+-->
+In reality the midterm exam is just another programming assignment that is worth more points. 
+It will be due during the 11th week of the semester. 
+Details will be provided beforehand. 
 
 ### Research Project
 
@@ -198,9 +202,4 @@ Accommodations. Please share this letter with your instructors and discuss the
 accommodations with them as early in your courses as possible. To begin this 
 process, please complete the Registration form on the ODS web site at: 
 [https://ods.rutgers.edu/students/registration-form](https://ods.rutgers.edu/students/registration-form).
-
-
-
-
-
 
