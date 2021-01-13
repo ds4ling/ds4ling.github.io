@@ -23,7 +23,7 @@ Readings to be completed before week 6 class.
 
 - [Fit-a-line](http://shinyapps.org/showapp.php?app=http://lmpp10e-mucesm.srv.mwn.de:3838/felix/lmfit&by=Felix%20Schönbrodt&title=Find-a-fit!&shorttitle=Find-a-fit!)
 - [Simple linear regression game](https://gallery.shinyapps.io/simple_regression/)
-- [Bivariate linear regression (shiny)](https://jvcasill.shinyapps.io/shiny_bivariate_regression/)
+- [Bivariate linear regression (shiny)](https://jvcasillas.shinyapps.io/shiny_bivariate_regression/)
 
 
 ### Key

@@ -9,8 +9,7 @@ explore, tidy, visualize, and analyze data. We will also focus on how to make
 the aforementioned procedures reproducible and shareable. Students will develop 
 a foundation in programming in R, as well as learning the most common tools at 
 the disposal of todays data scientist (i.e. GitHub, Knitr, etc.). No prior 
-experience with statistics or programming is necessary.  
-Pre-requisites: SPAN 361 or 363"
+experience with statistics or programming is necessary."
 markup: "mmark"
 ---
 

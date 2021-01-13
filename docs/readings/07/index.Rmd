@@ -13,7 +13,7 @@ Readings to be completed before week 7 class.
 - **QASS-22**: Ch. 3, p. 47-74
 - **QASS-57**: Ch. 2, p. 29-52
 - [xaringan tutorial 1](https://slides.yihui.name/xaringan/#1)
-- [xaringan tutorial 2](http://www.jvcasillas.com/ru_xaringan/slides/index.html#1)
+- [xaringan tutorial 2](https://www.jvcasillas.com/ru_xaringan/slides/index.html#1)
 
 ### Additional resources
 

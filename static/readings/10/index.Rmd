@@ -16,7 +16,7 @@ Readings to be completed before week 10 class.
 ### Additional resources
 
 - [Coding systems](https://stats.idre.ucla.edu/r/library/r-library-contrast-coding-systems-for-categorical-variables/)
-- [Coding schemes for categorical variables in regression](http://www.mypolyuweb.hk/~sjpolit/coding_schemes.html)
+- [Coding schemes for categorical variables in regression](https://www.polyu.edu.hk/cbs/sjpolit/coding_schemes.html)
 
 
 

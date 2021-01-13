@@ -1,22 +1,14 @@
 ---
 title: "Readings"
-subtitle: "Week 13"
+subtitle: "Week 11"
 output: 
   html_document: 
     theme: united
 ---
 
-Readings to be completed before week 13 class. 
+Exam week. Review everything. 
 
-### Required readings
-
-- LMEM, Something bayesian
-
-### Additional resources
-
-- find stuff
-
-### Key 
+Key: 
 
 - **R4DS**: R for Data Science
 - **QML**: Quantitative Methods in Linguistics

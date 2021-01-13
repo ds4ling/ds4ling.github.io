@@ -10,7 +10,7 @@ Readings to be completed before week 3 class.
 
 ### Required readings
 
-- **QML**: [Chapter 2](http://www.jvcasillas.com/ru_teaching/ru_spanish_589/589_01_s2018/readings/files/qml_ch_1_2.pdf), p. 34-57.
+- **QML**: [Chapter 2](https://ds4ling.github.io/readings/files/qml_ch_1_2.pdf), p. 34-57.
 - **R4DS**: Chapter 3, p. 43-76 (if read online: [Data transformation](http://r4ds.had.co.nz/transform.html))
 - [R for excel users](http://rex-analytics.com/r-for-excel-users/?utm_content=buffer66dd3&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 

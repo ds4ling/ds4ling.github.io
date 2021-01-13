@@ -19,7 +19,7 @@
       <guid>/syllabus/</guid>
       <description>Note: Subject to change depending on the needs of the class.
 
- Date Lesson Readings Slides PA   Thursday, 01/16 Week 1: Getting started. GitHub, R, and RStudio.      Thursday, 01/23 Week 2: Distributions.      Thursday, 01/30 Week 3: NHST, comparing means.      Thursday, 02/06 Week 4: Bivariate correlation.      Thursday, 02/13 Week 5: The linear model/regression.</description>
+ Date Lesson Readings Slides PA   Thursday, 01/21 Week 1: Getting started. GitHub, R, and RStudio.      Thursday, 01/28 Week 2: Distributions.      Thursday, 02/04 Week 3: NHST, comparing means.      Thursday, 02/11 Week 4: Bivariate correlation.      Thursday, 02/18 Week 5: The linear model/regression.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tools/</guid>
-      <description>R     Github     Slack    R is the statistical programming language we will learn about in this class. You can download R here. We will interface with R using RStudio, a fully feautred IDE. RStudio is available to download here.    Github is a Web-based Git version control repository hosting service. It is mostly used for computer code (like Dropbox for nerds).</description>
+      <description>R     Github     Slack    R is the statistical programming language we will learn about in this class. You can download R here. We will interface with R using RStudio, a fully feautred IDE. RStudio is available to download here.    Github is a web-based Git version control repository hosting service. It is mostly used for computer code (like Dropbox for nerds).</description>
     </item>
     
   </channel>
