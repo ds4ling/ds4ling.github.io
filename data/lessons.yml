@@ -1,7 +1,7 @@
 lessons:
   - title: "Week 1: Getting started. GitHub, R, and RStudio."
     date: "Thursday, 01/21"
-    slides: "01_getting_started/"
+#    slides: "01_getting_started/"
   - title: "Week 2: Distributions."
     date: "Thursday, 01/28"
     readings: "02/index.html"
