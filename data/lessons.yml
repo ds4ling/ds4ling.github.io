@@ -5,7 +5,7 @@ lessons:
   - title: "Week 2: Distributions."
     date: "Thursday, 01/28"
     readings: "02/index.html"
-#    slides: "02_distributions/"
+    slides: "02_distributions/"
     assignments: "01/index.html"
   - title: "Week 3: NHST, comparing means."
     date: "Thursday, 02/04"
