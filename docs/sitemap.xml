@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2017-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/policies/</loc>
     <lastmod>2017-04-13T00:00:00+00:00</lastmod>
   </url>
@@ -22,10 +27,6 @@
   
   <url>
     <loc>/components/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
   </url>
   
   <url>

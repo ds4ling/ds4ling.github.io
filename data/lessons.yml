@@ -14,7 +14,7 @@ lessons:
   - title: "Week 4: Bivariate correlation."
     date: "Thursday, 02/11"
     readings: "04/index.html"
-    slides: "04_correlation/"
+#    slides: "04_correlation/"
     assignments: "02/index.html"
   - title: "Week 5: The linear model/regression."
     date: "Thursday, 02/18"
