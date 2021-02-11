@@ -1,0 +1,35 @@
+---
+title: "Readings"
+subtitle: "Week 5"
+output: 
+  html_document: 
+    theme: united
+---
+
+Readings to be completed before week 5 class. 
+
+### Required readings
+
+- **QASS-22**: Ch. 1, p. 9-25
+- **R4DS**: Ch. 6 (p. 111-116) and Ch. 9 (p. 147-168)
+	- If read online: 
+		- [Workflow: Projects](http://r4ds.had.co.nz/workflow-projects.html)
+		- [Tidy data](http://r4ds.had.co.nz/tidy-data.html)
+
+### Additional resources
+
+- [tidyr tutorial](http://www.jvcasillas.com/tidyr_tutorial/)
+- [Tidy data](https://www.jstatsoft.org/article/view/v059i10)
+- [Non-tidy data](https://simplystatistics.org/2016/02/17/non-tidy-data/)
+- [Creating new variables with mutate and ifelse (advanced)](https://rstudio-pubs-static.s3.amazonaws.com/116317_e6922e81e72e4e3f83995485ce686c14.html#/)
+
+
+### Key 
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
+

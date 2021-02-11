@@ -1,0 +1,41 @@
+---
+title: "Readings"
+subtitle: "Week 2"
+output: 
+  html_document: 
+    theme: united
+---
+
+Readings to be completed before week 2 class. 
+
+### Required readings
+
+- [Whickham 2015](https://nhorton.people.amherst.edu/mererenovation/17_Wickham.PDF)
+- **R4DS**: Preface and Chapters 1 and 2, p. ix-41. 
+	- If read online:
+		- [Intro](http://r4ds.had.co.nz/introduction.html)
+		- [Explore](http://r4ds.had.co.nz/explore-intro.html)
+		- [Data visualization](http://r4ds.had.co.nz/data-visualisation.html)
+		- [Workflow basics](http://r4ds.had.co.nz/workflow-basics.html)
+- **QML**: [Chapter 1](https://ds4ling.github.io/readings/files/qml_ch_1_2.pdf), p. 1-33.
+
+### Additional resources
+
+- [Field Guide to the R Ecosystem (highly recommended)](http://fg2re.sellorm.com)
+- [Data science and R: How do I start?](https://medium.com/@kierisi/data-science-and-r-how-do-i-start-7a87426e103e)
+- [GitHub for the useR](http://happygitwithr.com)
+- [Using Git and GitHub](https://biodatascience.github.io/compbio/github.html)
+- [Getting help](https://dcl-2017-04.github.io/curriculum/getting-help.html)
+
+### Key
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
+
+
+
+
