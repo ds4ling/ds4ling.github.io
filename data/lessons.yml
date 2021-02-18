@@ -23,7 +23,7 @@ lessons:
   - title: "Week 5: The linear model/regression."
     date: "Thursday, 02/18"
     reading: "05/index.html"
-#    slides: "05_lm/01_bivariate_regression/"
+    slides: "05_lm/01_bivariate_regression/"
 
   - title: "Week 6: The linear model/regression."
     date: "Thursday, 02/25"
