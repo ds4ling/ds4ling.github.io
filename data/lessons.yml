@@ -29,7 +29,7 @@ lessons:
     date: "Thursday, 02/25"
     reading: "06/index.html"
 #    slides: "05_lm/02_assumptions_diagnostics/"
-#    assignments: "03/index.html"
+    assignments: "03/index.html"
 
   - title: "Week 7: The linear model/regression."
     date: "Thursday, 03/04"
