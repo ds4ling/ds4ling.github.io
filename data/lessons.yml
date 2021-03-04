@@ -34,7 +34,7 @@ lessons:
   - title: "Week 7: The linear model/regression."
     date: "Thursday, 03/04"
     reading: "07/index.html"
-#    slides: "05_lm/03_mrc/"
+    slides: "05_lm/03_mrc/"
 
   - title: "Week 8: The linear model/regression."
     date: "Thursday, 03/11"
