@@ -39,12 +39,13 @@ lessons:
   - title: "Week 8: The linear model/regression."
     date: "Thursday, 03/11"
     reading: "08/index.html"
-#    slides: "05_lm/03_mrc/index.html#72"
+    slides: "05_lm/03_mrc/index.html#72"
     assignments: "04/index.html"
 
   - title: "Spring break"
     date: "03/15 -- 03/19"
     reading: "08sb/index.html"
+
   - title: "Week 9: General linear model."
     date: "Thursday, 03/25"
     reading: "09/index.html"
