@@ -49,12 +49,14 @@ lessons:
   - title: "Week 9: General linear model."
     date: "Thursday, 03/25"
     reading: "09/index.html"
-#    slides: "05_lm/04_general_linear_model/"
+    slides: "05_lm/04_general_linear_model/"
 
   - title: "Week 10: General linear model."
     date: "Thursday, 04/01"
     reading: "10/index.html"
 #    slides: "05_lm/05_model_tuning/"
+    assignments: "05/index.html"
+
 
   - title: "Week 11: Generalized linear model. Online presentations due."
     date: "Thursday, 04/08"
