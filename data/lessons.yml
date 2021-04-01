@@ -54,7 +54,7 @@ lessons:
   - title: "Week 10: General linear model."
     date: "Thursday, 04/01"
     reading: "10/index.html"
-#    slides: "05_lm/05_model_tuning/"
+    slides: "05_lm/05_model_tuning/"
     assignments: "05/index.html"
 
 
