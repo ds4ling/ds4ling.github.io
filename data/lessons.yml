@@ -61,7 +61,7 @@ lessons:
   - title: "Week 11: Generalized linear model. Online presentations due."
     date: "Thursday, 04/08"
     reading: "11/index.html"
-#    slides: "06_glm/"
+    slides: "06_glm/"
     assignments: "06_online_presentation/index.html"
 
   - title: "Week 12: Generalized linear model. Online presentation comments due."

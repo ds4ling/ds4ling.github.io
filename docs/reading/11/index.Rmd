@@ -16,10 +16,10 @@ Readings to be completed before week 11 class.
 ### Additional resources
 
 - [Generalised Linear Models in R](https://magesblog.com/post/2015-08-04-generalised-linear-models-in-r/)
-- [Shiny GLM](https://jvcasill.shinyapps.io/shiny_glm/)
-- [When to use logistic regression](http://logisticregressionanalysis.com/33-when-to-use-logistic-regression/)
-- [Why regular regression does NOT work](http://logisticregressionanalysis.com/55-why-regular-regression-does-not-work/)
-- [What is (multivariate) logistic regression](http://logisticregressionanalysis.com/86-what-is-logistic-regression/)
+- [Shiny GLM](https://jvcasillas.shinyapps.io/shiny_glm/)
+- [When to use logistic regression](https://web.archive.org/web/20200706171149/http://logisticregressionanalysis.com/33-when-to-use-logistic-regression/)
+- [Why regular regression does NOT work](https://web.archive.org/web/20200706171149/http://logisticregressionanalysis.com/55-why-regular-regression-does-not-work/)
+- [What is (multivariate) logistic regression](https://web.archive.org/web/20200706171149/http://logisticregressionanalysis.com/86-what-is-logistic-regression/)
 
 ### Key 
 
