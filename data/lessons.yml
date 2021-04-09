@@ -64,23 +64,24 @@ lessons:
     slides: "06_glm/"
     assignments: "06_online_presentation/index.html"
 
-  - title: "Week 12: Generalized linear model. Online presentation comments due."
+  - title: "Week 12: Multilevel models. Online presentation comments due."
     date: "Thursday, 04/15"
     reading: "12/index.html"
-#    slides: "06_glm/index.html#47"
+#    slides: "07_mlm/"
 
-  - title: "Week 13: Research project presentations, residuals."
+  - title: "Week 13: Bayesian Data Analysis, residuals."
     date: "Thursday, 04/22"
     reading: "13/index.html"
-#    slides: "07_residuals/"
+#    slides: "08_bda/"
 
-  - title: "Week 14: Next steps."
+  - title: "Week 14: Research project presentations."
     date: "Thursday, 04/29"
     reading: "14/index.html"
 #    slides: "08_???/"
 
   - title: "Week 15: Reading day."
     date: "Thursday, 05/04"
+
   - title: "Week 16: Final exam day. Projects due before 12pm."
     date: "Thursday, 05/??"
 

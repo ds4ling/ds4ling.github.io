@@ -12,6 +12,7 @@ Readings to be completed before week 11 class.
 
 - [Statistical Rethinking, Ch. 9](https://ds4ling.github.io/readings/files/statistical_rethinking_ch9.pdf)
 - [Data Analysis Using Regression and Multileve/Hierarchical Models, Ch. 5](https://ds4ling.github.io/readings/files/gelman_hill_ch5.pdf)
+- [Data Analysis Using Regression and Multilevel/Hierarchical Models, Ch. 6](https://ds4ling.github.io/readings/files/gelman_hill_ch6.pdf)
 
 ### Additional resources
 
@@ -20,6 +21,11 @@ Readings to be completed before week 11 class.
 - [When to use logistic regression](https://web.archive.org/web/20200706171149/http://logisticregressionanalysis.com/33-when-to-use-logistic-regression/)
 - [Why regular regression does NOT work](https://web.archive.org/web/20200706171149/http://logisticregressionanalysis.com/55-why-regular-regression-does-not-work/)
 - [What is (multivariate) logistic regression](https://web.archive.org/web/20200706171149/http://logisticregressionanalysis.com/86-what-is-logistic-regression/)
+- [What a Multivariate Logistic Regression Data Set Looks Like: An Example](http://logisticregressionanalysis.com/303-what-a-logistic-regression-data-set-looks-like-an-example/)
+- [A little about logs](http://logisticregressionanalysis.com/110-a-little-about-logs/)
+- [About odds and odds ratios](http://logisticregressionanalysis.com/160-about-odds-and-odds-ratios/)
+- [Understanding Logistic Regression Output](http://logisticregressionanalysis.com/376-understanding-logistic-regression-output-part1/)
+- [How Big a Sample? How Many X-Variables?](http://logisticregressionanalysis.com/1532-how-big-a-sample-how-many-x-variables/)
 
 ### Key 
 
