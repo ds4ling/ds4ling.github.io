@@ -10,19 +10,10 @@ Readings to be completed before week 12 class.
 
 ### Required readings
 
-- TBD
+- https://journals.sagepub.com/doi/full/10.1177/2515245920960351
 
 ### Additional resources
 
-- TBD
-
-### Key 
-
-- **R4DS**: R for Data Science
-- **QML**: Quantitative Methods in Linguistics
-- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
-- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
-- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
-- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
-
-
+- https://journals.sagepub.com/doi/10.1177/2515245920965119
+- https://shiny.psy.gla.ac.uk/lmem_sim/
+- http://mfviz.com/hierarchical-models/
