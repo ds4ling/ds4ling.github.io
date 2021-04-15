@@ -6,23 +6,11 @@ output:
     theme: united
 ---
 
-Readings to be completed before week 13 class. 
+Readings to keep you occupied after S2021. 
 
-### Required readings
+### Readings
 
-- None
-
-### Additional resources
-
-- TBD
-
-### Key 
-
-- **R4DS**: R for Data Science
-- **QML**: Quantitative Methods in Linguistics
-- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
-- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
-- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
-- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
-
-
+- https://lindeloev.github.io/tests-as-linear/
+- https://setosa.io/ev/ordinary-least-squares-regression/
+- https://oliviergimenez.github.io/bayesian-stats-with-R/
+- https://vasishth.github.io/bayescogsci/book/software-needed.html

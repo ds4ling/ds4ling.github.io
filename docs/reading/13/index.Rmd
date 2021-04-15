@@ -10,19 +10,13 @@ Readings to be completed before week 13 class.
 
 ### Required readings
 
-- TBD
+- https://rpsychologist.com/d3/bayes/
+- https://m-clark.github.io/easy-bayes/basic-bayesian-analysis.html
+- https://www.tjmahr.com/bayesplot-satrdays-2019/#/
+- https://seeing-theory.brown.edu/index.html#secondPage/chapter4
+- https://seeing-theory.brown.edu/index.html#secondPage/chapter5
+- https://psyarxiv.com/w5vbp/
 
 ### Additional resources
 
 - TBD
-
-### Key 
-
-- **R4DS**: R for Data Science
-- **QML**: Quantitative Methods in Linguistics
-- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
-- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
-- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
-- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
-
-

@@ -57,7 +57,6 @@ lessons:
     slides: "05_lm/05_model_tuning/"
     assignments: "05/index.html"
 
-
   - title: "Week 11: Generalized linear model. Online presentations due."
     date: "Thursday, 04/08"
     reading: "11/index.html"
@@ -67,7 +66,7 @@ lessons:
   - title: "Week 12: Multilevel models. Online presentation comments due."
     date: "Thursday, 04/15"
     reading: "12/index.html"
-#    slides: "07_mlm/"
+    slides: "07_mlm/"
 
   - title: "Week 13: Bayesian Data Analysis, residuals."
     date: "Thursday, 04/22"
@@ -77,11 +76,11 @@ lessons:
   - title: "Week 14: Research project presentations."
     date: "Thursday, 04/29"
     reading: "14/index.html"
-#    slides: "08_???/"
+#    slides: "09_residuals/"
 
   - title: "Week 15: Reading day."
     date: "Thursday, 05/04"
 
   - title: "Week 16: Final exam day. Projects due before 12pm."
-    date: "Thursday, 05/??"
+    date: "Monday, 05/10"
 
