@@ -68,7 +68,7 @@ lessons:
     reading: "12/index.html"
     slides: "07_mlm/"
 
-  - title: "Week 13: Bayesian Data Analysis, residuals."
+  - title: "Week 13: Bayesian inference, residuals."
     date: "Thursday, 04/22"
     reading: "13/index.html"
 #    slides: "08_bda/"
