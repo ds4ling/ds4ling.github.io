@@ -71,7 +71,7 @@ lessons:
   - title: "Week 13: Bayesian inference, residuals."
     date: "Thursday, 04/22"
     reading: "13/index.html"
-#    slides: "08_bda/"
+    slides: "08_bda/"
 
   - title: "Week 14: Research project presentations."
     date: "Thursday, 04/29"

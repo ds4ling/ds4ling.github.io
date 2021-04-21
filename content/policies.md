@@ -110,7 +110,7 @@ else), and one for the owner of the project in the form of a issue/comment on
 GIthub. The evaluation written for the professor should be longer and more in 
 depth. Both evaluations should be written in the style of a peer review for an
 academic journal, thus they should include comments, questions, suggestions, and 
-*constructive* criticisms (\#BeReviewer1). The point of this excersize is to 
+*constructive* criticisms (\#BeReviewer1). The point of this exercise is to 
 help the author make the final product better. 
 
 
