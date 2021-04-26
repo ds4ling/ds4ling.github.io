@@ -68,15 +68,15 @@ lessons:
     reading: "12/index.html"
     slides: "07_mlm/"
 
-  - title: "Week 13: Bayesian inference, residuals."
+  - title: "Week 13: Bayesian inference."
     date: "Thursday, 04/22"
     reading: "13/index.html"
     slides: "08_bda/"
 
-  - title: "Week 14: Research project presentations."
+  - title: "Week 14: Research project presentations, residuals."
     date: "Thursday, 04/29"
     reading: "14/index.html"
-#    slides: "09_residuals/"
+    slides: "09_residuals/"
 
   - title: "Week 15: Reading day."
     date: "Thursday, 05/04"
