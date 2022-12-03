@@ -34,8 +34,8 @@ twitter <- '<a href="http://twitter.com/jvcasill"><i class="fa fa-twitter fa-fw"
 tribble(
   ~" ", ~"  ", 
   "Instructor:", paste("Joseph Casillas (", home, mail, github, twitter, ")"), 
-  "When:", "Thursday 08:10 - 11:10am", 
-  "Where:", "Online", 
+  "When:", "Monday 10:20 - 13:20", 
+  "Where:", "AB 5190", 
   "Office hours:", "By appointment"
 ) %>% 
   knitr::kable(format = "pandoc") 

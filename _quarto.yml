@@ -8,6 +8,7 @@ project:
     - "img"
     - "reading"
     - "assignments"
+    - "misc"
 
 website:
   title: "ds4ling"
