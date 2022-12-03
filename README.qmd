@@ -1,7 +1,10 @@
+---
+format: gfm
+---
 
 # Webpage for Data Science for Linguists (SPAN 589)
 
-Last update: 2022-12-03  
+Last update: `r Sys.Date()`  
 Previous versions: Spring 2018
 
 Source code for course website for SPAN 589 at Rutgers University.
