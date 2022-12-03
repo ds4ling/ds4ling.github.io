@@ -7,7 +7,7 @@ lessons:
     date: "Thursday, 01/28"
     reading: "02/index.html"
     slides: "02_distributions/"
-    assignments: "01/index.html"
+    #assignments: "01/index.html"
     
   - title: "Week 3: NHST, comparing means."
     date: "Thursday, 02/04"
@@ -18,7 +18,7 @@ lessons:
     date: "Thursday, 02/11"
     reading: "04/index.html"
     slides: "04_correlation/"
-    assignments: "02/index.html"
+    #assignments: "02/index.html"
     
   - title: "Week 5: The linear model/regression."
     date: "Thursday, 02/18"
@@ -29,7 +29,7 @@ lessons:
     date: "Thursday, 02/25"
     reading: "06/index.html"
     slides: "05_lm/02_assumptions_diagnostics/"
-    assignments: "03/index.html"
+    #assignments: "03/index.html"
 
   - title: "Week 7: The linear model/regression."
     date: "Thursday, 03/04"
@@ -40,7 +40,7 @@ lessons:
     date: "Thursday, 03/11"
     reading: "08/index.html"
     slides: "05_lm/03_mrc/index.html#72"
-    assignments: "04/index.html"
+    #assignments: "04/index.html"
 
   - title: "Spring break"
     date: "03/15 -- 03/19"
@@ -55,13 +55,13 @@ lessons:
     date: "Thursday, 04/01"
     reading: "10/index.html"
     slides: "05_lm/05_model_tuning/"
-    assignments: "05/index.html"
+    #assignments: "05/index.html"
 
   - title: "Week 11: Generalized linear model. Online presentations due."
     date: "Thursday, 04/08"
     reading: "11/index.html"
     slides: "06_glm/"
-    assignments: "06_online_presentation/index.html"
+    #assignments: "06_online_presentation/index.html"
 
   - title: "Week 12: Multilevel models. Online presentation comments due."
     date: "Thursday, 04/15"
