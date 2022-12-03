@@ -1,0 +1,30 @@
+---
+title: "Tutorials"
+date: "Last updated: `r Sys.time()`"
+---
+
+
+The following links will help get you started with the initial set-up for some data science-related programs. 
+
+```{r}
+#| label: print-list
+#| echo: false
+#| message: false
+#| results: 'asis'
+library("tidyverse")
+library("glue")
+library("stringr")
+
+# Get list of folders in current directory
+fs::dir_ls(here::here("misc/tutorials"), recurse = T, regexp = "html") %>% 
+  as_tibble() %>% 
+  mutate(value = str_remove_all(value, here::here())) %>% 
+  separate(value, into = c("path", "hold"), sep = 16) %>% 
+  separate(hold, into = c("name", "ending"), sep = "/") %>% 
+  transmute(
+    link = glue("- [{name}](https://ds4ling.jvcasillas.com{path}{name}{ending})"), 
+    ) %>% 
+  pull(link)
+```
+
+
