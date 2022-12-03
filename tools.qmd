@@ -1,0 +1,55 @@
+---
+title: "Tools"
+toc: false
+---
+
+::: {.panel-tabset}
+
+## <i class="icon-rlogo"></i>
+
+![](./img/normals.png){width=100%}
+
+R is the statistical programming language we will learn about in this class. 
+You can download R <a href="https://cran.r-project.org" target="_blank">here</a>. 
+We will interface with R using RStudio, a fully feautred IDE. RStudio is available to download <a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank">here</a>.
+
+## <i class="fa fa-github"></i> Github
+
+```{r}
+#| label: octocat
+#| out.width: "45%"
+#| fig.align: "center"
+#| echo: false
+knitr::include_graphics(
+  "https://octodex.github.com/images/daftpunktocat-guy.gif"
+)
+```
+
+<a href="http://www.github.com" target="_blank">Github</a> is a  web-based Git version control repository hosting service. 
+It is mostly used for computer code (like Dropbox for nerds). 
+We will use GitHub for project management and sharing reproducible reports.
+
+## <i class="fa fa-slack"></i> Slack
+
+```{r}
+#| label: slack
+#| out.width: "80%"
+#| fig.align: "center"
+#| echo: false
+knitr::include_graphics(
+  "https://a.slack-edge.com/221d25b/marketing/img/homepage/e2e-prospects/unfurl/slack-e2e-homepage-unfurl.jpg"
+)
+```
+
+Slack is a communication platform we'll use to discuss specific topics outside of class. 
+It also serves as a resource for students to ask questions and exchange information relevant to the course. 
+You will receive an email with an invitation link to join the course Slack. 
+For personal matters (only) you can email the professor.
+
+:::
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+

@@ -1,0 +1,59 @@
+---
+title: "Components"
+toc: false
+---
+
+::: {.panel-tabset}
+
+## <i class="fa fa-bath"></i> Tidy
+
+<img width="100%" src="img/workflow/datascience_workflow.png">  
+
+### Topics:
+
+- Tidyverse
+- Importing, cleaning/tidying data
+- Subsetting
+- Creating and transforming variables
+- Preparing data for visualization and analysis
+
+## <i class="fa fa-line-chart"></i> Visualize
+
+<img width="100%" src="img/workflow/datascience_workflow.png">  
+
+### Topics:
+
+- Grammar of graphics
+- ggplot2
+
+## <i class="fa fa-gears"></i> Model
+
+<img width="100%" src="img/workflow/datascience_workflow.png">  
+
+### Topics:
+
+- Multiple regression and correlation
+- The linear model
+- The generalized linear model
+- Model assessment
+- Model specification
+
+## <i class="fa fa-comments"></i> Communicate
+
+<img width="100%" src="img/workflow/datascience_workflow.png">  
+
+### Topics:
+
+- RMarkdown
+- knitr
+- papaja
+- xaringan
+- git
+
+:::
+
+
+
+
+
+<script src="https://use.fontawesome.com/5235085b15.js"></script>
