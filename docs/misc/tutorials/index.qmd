@@ -22,7 +22,7 @@ fs::dir_ls(here::here("misc/tutorials"), recurse = T, regexp = "html") %>%
   separate(value, into = c("path", "hold"), sep = 16) %>% 
   separate(hold, into = c("name", "ending"), sep = "/") %>% 
   transmute(
-    link = glue("- [{name}](https://ds4ling.jvcasillas.com{path}{name}{ending})"), 
+    link = glue("- [{name}](https://ds4ling.jvcasillas.com{path}{name}/{ending})"), 
     ) %>% 
   pull(link)
 ```
