@@ -1,0 +1,87 @@
+---
+title: "About"
+toc: false
+---
+
+```{r}
+#| label: table-setup
+#| echo: false
+#| message: false
+
+library("tidyverse")
+library("kableExtra")
+```
+
+In this course students examine the fundamental principles of  doing experimental research in linguistics. 
+Specifically, the focus is on developing an in depth understanding of the experimental paradigms and statistical procedures used in sociolinguistics, phonetics, psycholinguistics, syntax, and corpus linguistics. 
+Students will learn advanced techniques used to explore, tidy, visualize, and analyze data. 
+We will also focus on how to make the aforementioned procedures reproducible and shareable. 
+Students will develop a foundation in programming in R, as well as learning the most common tools at the disposal of todays data scientist (i.e. GitHub, Knitr, etc.). 
+No prior experience with statistics or programming is necessary.
+
+
+## Course info
+
+```{r}
+#| label: info
+#| echo: false
+
+home <- '<a href="http://www.jvcasillas.com/" title="homepage"><i class="fa fa-home"></i></a>'
+mail <- '<a href="mailto:joseph.casillas@rutgers.edu"><i class="fa fa-paper-plane fa-fw"></i></a>'
+github <- '<a href="http://github.com/jvcasillas"><i class="fa fa-github fa-fw"></i></a>'
+twitter <- '<a href="http://twitter.com/jvcasill"><i class="fa fa-twitter fa-fw"></i></a>'
+
+tribble(
+  ~" ", ~"  ", 
+  "Instructor:", paste("Joseph Casillas (", home, mail, github, twitter, ")"), 
+  "When:", "Thursday 08:10 - 11:10am", 
+  "Where:", "Online", 
+  "Office hours:", "By appointment"
+) %>% 
+  knitr::kable(format = "pandoc") 
+```
+
+
+
+## Materials
+
+```{r}
+#| label: materials
+#| echo: false
+
+r4ds <- "Wickham, H., & Grolemund, G. (2017). R for Data Science. O'Reilly Media."
+johnson <- "Johnson, K. (2008). Quantitative Methods in Linguistics. Blackwell Publishing."
+qass22 <- "Lewis-Beck, M. (1980). Applied Regression: An Introduction. Volume 22 of Quantitative Applications in the Social Sciences. Sage Publications."
+qass50 <- "Berry, W., & Feldman, S. (1985). Multiple Regression in Practice. Issue 50. Quantitative Applications in the Social Sciences. Sage Publications."
+qass57 <- "Schroeder, L. D., Sjoquist, D. L., & Stephan, P. E. (1986). Understanding Regression Analysis: An Introductory Guide. Issue 57. Quantitative Applications in the Social Sciences. Sage Publications."
+qass93 <- "Hardy, M. A. (1993). Regression with Dummy Variables. Issue 93. Quantitative Applications in the Social Sciences. Sage Publications."
+
+links <- c(
+  "http://r4ds.had.co.nz", 
+  "http://a.co/9ArHNqO", 
+  "http://a.co/2zyfhXj", 
+  "http://a.co/8jcU0ef", 
+  "http://a.co/gE2xmLr", 
+  "http://a.co/8Spewd9"
+)
+
+
+tribble(
+  ~"item", ~"ref", ~"link",
+  1, r4ds,    "Online", 
+  2, johnson, "Amazon", 
+  3, qass22,  "Amazon", 
+  4, qass50,  "Amazon", 
+  5, qass57,  "Amazon", 
+  6, qass93,  "Amazon"
+) %>% 
+  kbl(align = c("l", "l", "r")) %>% 
+  row_spec(0, color = "white") %>% 
+  column_spec(3, link = links, width = "10em") %>% 
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed", "responsive")
+  )
+```
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

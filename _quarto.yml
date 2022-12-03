@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+    - "!old/"
+  resources: 
+    - "img"
+    - "reading"
+    - "assignments"
+
+website:
+  title: "ds4ling"
+  favicon: ./img/favicon.png
+  twitter-card: true
+  open-graph: true
+  google-analytics: "UA-49437230-1"
+  navbar:
+    left:
+      - href: about.qmd
+        text: About
+      - href: components.qmd
+        text: Components
+      - href: tools.qmd
+        text: Tools
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: policies.qmd
+        text: Policies
+
+format:
+  html:
+    theme:
+      light: [simplex, ./css/theme-light.scss]
+      dark: darkly
+    css: ./css/styles.css
+    toc: true

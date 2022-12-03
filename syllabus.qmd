@@ -1,0 +1,175 @@
+---
+title: "Syllabus"
+page-layout: full
+toc: false
+---
+
+```{r}
+#| label: syllabus-table
+#| message: false
+#| echo: false
+library("tidyverse")
+library("kableExtra")
+library("glue")
+
+link_base <- '<a href="https://www.ds4ling.jvcasillas.com'
+icn_r     <- '<i class="fa fa-book fa-lg"></i>'
+icn_s     <- '<i class="fa fa-file-image-o  fa-lg"></i>'
+icn_a     <- '<i class="fa fa-keyboard-o fa-lg"></i>'
+
+syl <- list(
+  wk1 = list(
+    date = "Week 1: 01/21", 
+    topic = "Getting started. GitHub, R, and RStudio.", 
+    reading = icn_r, 
+    slides = glue("{link_base}/slides/01_getting_started/\">{icn_s}</a>"), 
+    pa = icn_a
+  ), 
+  wk2 = list(
+    date = "Week 2: 01/28", 
+    topic = "Distributions.", 
+    reading = glue("{link_base}/reading/02/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/02_distributions/\">{icn_s}</a>"), 
+    pa = glue("{link_base}/assignments/01/\">{icn_a}</a>") 
+  ), 
+  wk3 = list(
+    date = "Week 3: 02/04", 
+    topic = "NHST, comparing means.", 
+    reading = glue("{link_base}/reading/03/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/03_nhst/\">{icn_s}</a>"), 
+    pa = icn_a
+  ), 
+  wk4 = list(
+    date = "Week 4: 02/11", 
+    topic = "Bivariate correlation.", 
+    reading = glue("{link_base}/reading/04/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/04_correlation/\">{icn_s}</a>"), 
+    pa = glue("{link_base}/assignments/02/\">{icn_a}</a>")
+  ), 
+  wk5 = list(
+    date = "Week 5: 02/18", 
+    topic = "The linear model/regression.", 
+    reading = glue("{link_base}/reading/05/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/05_lm/01_bivariate_regression/\">{icn_s}</a>"), 
+    pa = icn_a
+  ), 
+  wk6 = list(
+    date = "Week 6: 02/25", 
+    topic = "The linear model/regression.", 
+    reading = glue("{link_base}/reading/06/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/05_lm/02_assumptions_diagnostics/\">{icn_s}</a>"), 
+    pa = glue("{link_base}/assignments/03/\">{icn_a}</a>")
+  ), 
+  wk7 = list(
+    date = "Week 7: 03/04", 
+    topic = "The linear model/regression.", 
+    reading = glue("{link_base}/reading/07/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/05_lm/03_mrc/\">{icn_s}</a>"), 
+    pa = icn_a
+  ), 
+  wk8 = list(
+    date = "Week 8: 03/11", 
+    topic = "The linear model/regression.", 
+    reading = glue("{link_base}/reading/08/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/05_lm/03_mrc/index.html#72\">{icn_s}</a>"), 
+    pa = glue("{link_base}/assignments/04/\">{icn_a}</a>")
+  ), 
+  sb = list(
+    date = "--", 
+    topic = "Spring break.", 
+    reading = glue("{link_base}/reading/08sb/\">{icn_r}</a>"), 
+    slides = icn_s, 
+    pa = icn_a
+  ), 
+  wk9 = list(
+    date = "Week 9: 03/25", 
+    topic = "General linear model.", 
+    reading = glue("{link_base}/reading/09/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/05_lm/04_general_linear_model/\">{icn_s}</a>"), 
+    pa = icn_a
+  ), 
+  wk10 = list(
+    date = "Week 10: 04/01", 
+    topic = "General linear model.", 
+    reading = glue("{link_base}/reading/10/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/05_lm/05_model_tuning/\">{icn_s}</a>"), 
+    pa = glue("{link_base}/assignments/05/\">{icn_a}</a>")
+  ), 
+  wk11 = list(
+    date = "Week 11: 04/08", 
+    topic = "Generalized linear model. Online presentations due.", 
+    reading = glue("{link_base}/reading/11/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/06_glm/\">{icn_s}</a>"), 
+    pa = glue("{link_base}/assignments/06/\">{icn_a}</a>")
+  ), 
+  wk12 = list(
+    date = "Week 12: 04/15", 
+    topic = "Multilevel models. Online presentation comments due.", 
+    reading = glue("{link_base}/reading/12/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/07_mlm/\">{icn_s}</a>"), 
+    pa = icn_a
+  ), 
+  wk13 = list(
+    date = "Week 13: 04/22", 
+    topic = "Bayesian inference.", 
+    reading = glue("{link_base}/reading/13/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/08_bda/\">{icn_s}</a>"), 
+    pa = icn_a
+  ), 
+  wk14 = list(
+    date = "Week 14: 04/29", 
+    topic = "Research project presentations, residuals.", 
+    reading = glue("{link_base}/reading/14/\">{icn_r}</a>"), 
+    slides = glue("{link_base}/slides/09_residuals/\">{icn_s}</a>"), 
+    pa = icn_a
+  ), 
+  wk15 = list(
+    date = "Week 15: 05/04", 
+    topic = "Reading day.", 
+    reading = icn_r, 
+    slides = icn_s, 
+    pa = icn_a
+  ), 
+  wk16 = list(
+    date = "Week 16: 05/10", 
+    topic = "Final exam day. Projects due before 12pm.", 
+    reading = icn_r, 
+    slides = icn_s, 
+    pa = icn_a
+  )
+)
+
+tribble(
+~"Date", ~"Topic", ~"Reading", ~"Slides", ~"Assignment", 
+syl$wk1$date, syl$wk1$topic, syl$wk1$reading, syl$wk1$slides, syl$wk1$pa,
+syl$wk2$date, syl$wk2$topic, syl$wk2$reading, syl$wk2$slides, syl$wk2$pa,
+syl$wk3$date, syl$wk3$topic, syl$wk3$reading, syl$wk3$slides, syl$wk3$pa,
+syl$wk4$date, syl$wk4$topic, syl$wk4$reading, syl$wk4$slides, syl$wk4$pa,
+syl$wk5$date, syl$wk5$topic, syl$wk5$reading, syl$wk5$slides, syl$wk5$pa,
+syl$wk6$date, syl$wk6$topic, syl$wk6$reading, syl$wk6$slides, syl$wk6$pa,
+syl$wk7$date, syl$wk7$topic, syl$wk7$reading, syl$wk7$slides, syl$wk7$pa,
+syl$wk8$date, syl$wk8$topic, syl$wk8$reading, syl$wk8$slides, syl$wk8$pa,
+syl$sb$date,  syl$sb$topic,  syl$sb$reading,  syl$sb$slides,  syl$sb$pa,
+syl$wk9$date, syl$wk9$topic, syl$wk9$reading, syl$wk9$slides, syl$wk9$pa,
+syl$wk10$date, syl$wk10$topic, syl$wk10$reading, syl$wk10$slides, syl$wk10$pa,
+syl$wk11$date, syl$wk11$topic, syl$wk11$reading, syl$wk11$slides, syl$wk11$pa,
+syl$wk12$date, syl$wk12$topic, syl$wk12$reading, syl$wk12$slides, syl$wk12$pa,
+syl$wk13$date, syl$wk13$topic, syl$wk13$reading, syl$wk13$slides, syl$wk13$pa,
+syl$wk14$date, syl$wk14$topic, syl$wk14$reading, syl$wk14$slides, syl$wk14$pa,
+syl$wk15$date, syl$wk15$topic, syl$wk15$reading, syl$wk15$slides, syl$wk15$pa,
+syl$wk16$date, syl$wk16$topic, syl$wk16$reading, syl$wk16$slides, syl$wk16$pa,
+ ) %>% 
+  knitr::kable(format = "pandoc", align = c("l", "l", "c", "c", "c"))
+
+```
+
+Printable versions: <a href="https://www.jvcasillas.com/syllabi/589/index.pdf">syllabus</a> | <a href="https://www.jvcasillas.com/syllabi/589/refs/readings/589_reading_list.pdf">readings</a>  
+Tutorials <a href="https://ds4ling.github.io/sources/tuts/index.html">here</a>  
+Online presentation info <a href="https://ds4ling.github.io/assignments/06_online_presentation/index.html">here</a>  
+<!--PA 5 example <a href="https://github.com/ds4ling/programming_assignments/blob/master/misc/data/pa_5_answers.zip?raw=true">here</a> -->
+
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
