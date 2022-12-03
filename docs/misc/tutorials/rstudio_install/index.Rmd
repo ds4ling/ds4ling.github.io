@@ -1,0 +1,23 @@
+---
+title: "RStudio installation"
+date: "Last update: `r Sys.time()`"
+output: 
+  html_document: 
+    theme: yeti
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. Go to https://www.rstudio.com/products/rstudio/download/#download
+
+2. Select the installer for your operating system.
+
+<div align="center">
+  <img width="75%" src="./img/rstudio1.png">
+</div>
+
+3. Once file has downloaded, run and follow instructions. 
+
+Once you have finished you should set up your [github account](https://ds4ling.github.io/sources/tuts/github_setup/index.html)
