@@ -17,7 +17,13 @@ syl <- url("https://www.jvcasillas.com/syllabi/589/calendar/calendar_s2023.rds")
 
 # Load file and build table
 readRDS(syl) %>% 
-  dplyr::select(-Stats, -Programming) %>% 
+  mutate(Slides = as.character(Slides)) %>% 
+  mutate( 
+    row_id = 1:nrow(.), 
+    show = if_else(row_id > 0, 0, 1), 
+    Slides = if_else(show == 0, '<i class="fa fa-file-image-o  fa-lg">', .$Slides)
+  ) %>% 
+  dplyr::select(-Stats, -Programming, -row_id, -show) %>% 
   knitr::kable(format = "pandoc", align = c("l", "l", "c", "c", "c"))
 
 ```

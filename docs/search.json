@@ -25,14 +25,14 @@
     "href": "components.html",
     "title": "Components",
     "section": "",
-    "text": "Tidy Visualize Model Communicate\n\n\n\n\n\n\nTidyverse\nImporting, cleaning/tidying data\nSubsetting\nCreating and transforming variables\nPreparing data for visualization and analysis\n\n\n\n\n\n\n\n\nGrammar of graphics\nggplot2\n\n\n\n\n\n\n\n\nMultiple regression and correlation\nThe linear model\nThe generalized linear model\nModel assessment\nModel specification\n\n\n\n\n\n\n\n\nRMarkdown\nknitr\npapaja\nxaringan\ngit"
+    "text": "Tidy Visualize Model Communicate\n\n\n\n\nTopics:\n\nTidyverse\nImporting, cleaning/tidying data\nSubsetting\nCreating and transforming variables\nPreparing data for visualization and analysis\n\n\n\n\n\n\nTopics:\n\nGrammar of graphics\nggplot2\n\n\n\n\n\n\nTopics:\n\nMultiple regression and correlation\nThe linear model\nThe generalized linear model\nModel assessment\nModel specification\n\n\n\n\n\n\nTopics:\n\nRMarkdown\nknitr\npapaja\nxaringan\ngit"
   },
   {
     "objectID": "misc/tutorials/index.html",
     "href": "misc/tutorials/index.html",
     "title": "Tutorials",
     "section": "",
-    "text": "data_structures_intro\ngithub_setup\nplotting_tutorial\nr_install\nrmarkdown_tutorial\nrstudio_install\nrstudio_projects\nslack_setup\ntidyverse_overview"
+    "text": "The following links will help get you started with the initial set-up for some data science-related programs.\n\ndata_structures_intro\ngithub_setup\nplotting_tutorial\nr_install\nrmarkdown_tutorial\nrstudio_install\nrstudio_projects\nslack_setup\ntidyverse_overview"
   },
   {
     "objectID": "policies.html",
@@ -53,7 +53,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Printable versions: syllabus | readings\nTutorials here\nOnline presentation info here"
+    "text": "Date\nTopic\nReading\nSlides\nAssignment\n\n\n\n\nWeek 1: 01/23\nGetting started. GitHub, R, and RStudio.\n\n\n\n\n\nWeek 2: 01/30\nDistributions.\n\n\n\n\n\nWeek 3: 02/06\nNHST, comparing means.\n\n\n\n\n\nWeek 4: 02/13\nBivariate correlation.\n\n\n\n\n\nWeek 5: 02/20\nThe linear model/regression.\n\n\n\n\n\nWeek 6: 02/27\nThe linear model/regression.\n\n\n\n\n\nWeek 7: 03/06\nThe linear model/regression.\n\n\n\n\n\n03/11 - 03/19\nSpring break.\n\n\n\n\n\nWeek 8: 03/20\nThe linear model/regression.\n\n\n\n\n\nWeek 9: 03/27\nGeneral linear model.\n\n\n\n\n\nWeek 10: 04/03\nGeneral linear model.\n\n\n\n\n\nWeek 11: 04/10\nGeneralized linear model. Online presentations due.\n\n\n\n\n\nWeek 12: 04/17\nMultilevel models. Online presentation comments due.\n\n\n\n\n\nWeek 13: 04/24\nBayesian inference. Mid-term\n\n\n\n\n\nWeek 14: 05/01\nResearch project presentations, residuals.\n\n\n\n\n\nWeek 15: 05/03\nReading day.\n\n\n\n\n\nWeek 16: 05/10\nFinal exam day. Projects due before 12pm.\n\n\n\n\n\n\n\n\nPrintable versions: syllabus | readings\nTutorials here\nOnline presentation info here"
   },
   {
     "objectID": "tools.html",
