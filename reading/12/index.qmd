@@ -1,0 +1,16 @@
+---
+title: "Readings"
+subtitle: "Week 12"
+---
+
+Readings to be completed before week 12 class. 
+
+### Required readings
+
+- [Brown (2021)](https://journals.sagepub.com/doi/full/10.1177/2515245920960351)
+
+### Additional resources
+
+- [DeBruine & Barr (2021)](https://journals.sagepub.com/doi/10.1177/2515245920965119)
+- https://shiny.psy.gla.ac.uk/lmem_sim/
+- http://mfviz.com/hierarchical-models/

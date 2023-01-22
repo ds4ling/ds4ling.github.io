@@ -1,0 +1,27 @@
+---
+title: "Readings"
+subtitle: "Week 10"
+---
+
+Readings to be completed before week 10 class. 
+
+### Required readings
+
+- **QASS-93**: Ch. 5, p. 64-74
+
+
+### Additional resources
+
+- [Coding systems](https://stats.idre.ucla.edu/r/library/r-library-contrast-coding-systems-for-categorical-variables/)
+- [Coding schemes for categorical variables in regression](https://www.polyu.edu.hk/cbs/sjpolit/coding_schemes.html)
+
+
+
+### Key 
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)

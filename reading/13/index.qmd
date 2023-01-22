@@ -1,0 +1,18 @@
+---
+title: "Readings"
+subtitle: "Week 13"
+---
+
+Readings to be completed before week 13 class. 
+
+### Required readings
+
+- [Bayesian thinking for toddlers](https://psyarxiv.com/w5vbp/)
+- [Seeing theory: Frequentist inference](https://seeing-theory.brown.edu/index.html#secondPage/chapter4)
+- [Seeing theory: Bayesian inference](https://seeing-theory.brown.edu/index.html#secondPage/chapter5)
+- [Basic Bayesian analysis](https://m-clark.github.io/easy-bayes/basic-bayesian-analysis.html)
+
+### Additional reading
+
+- [Interactive visualization](https://rpsychologist.com/d3/bayes/)
+- https://www.tjmahr.com/bayesplot-satrdays-2019/#/

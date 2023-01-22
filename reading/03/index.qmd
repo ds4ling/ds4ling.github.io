@@ -1,0 +1,31 @@
+---
+title: "Readings"
+subtitle: "Week 3"
+---
+
+Readings to be completed before week 3 class. 
+
+### Required readings
+
+- **QML**: [Chapter 2](https://www.ds4ling.jvcasillas.com/reading/files/qml_ch_1_2.pdf), p. 34-57.
+- **R4DS**: Chapter 3, p. 43-76 (if read online: [Data transformation](http://r4ds.had.co.nz/transform.html))
+
+
+### Additional resources
+
+- [R for excel users](https://rstudio-conf-2020.github.io/r-for-excel/)
+- [RMarkdown cheatsheet](https://posit.co/wp-content/uploads/2022/10/rmarkdown-1.pdf)
+- [RMarkdown reference](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+- [Getting started with RMarkdown](https://www.rstudio.com/resources/webinars/getting-started-with-r-markdown/)
+- [ggplot2 cheatsheet](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf)
+- [Secrets to a happy graphing life](http://stat545.com/block016_secrets-happy-graphing.html)
+- [A Compendium of Clean Graphs in R](http://shinyapps.org/apps/RGraphCompendium/index.php)
+
+### Key 
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)

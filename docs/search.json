@@ -56,6 +56,97 @@
     "text": "Readings to be completed before week 2 class.\n\nRequired readings\n\nWhickham 2015\nR4DS: Preface and Chapters 1 and 2, p. ix-41.\n\nIf read online:\n\nIntro\nExplore\nData visualization\nWorkflow basics\n\n\nQML: Chapter 1, p. 1-33.\n\n\n\nAdditional resources\n\nField Guide to the R Ecosystem (highly recommended)\nData science and R: How do I start?\nGitHub for the useR\nUsing Git and GitHub\nGetting help\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
   },
   {
+    "objectID": "reading/03/index.html",
+    "href": "reading/03/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 3 class.\n\nRequired readings\n\nQML: Chapter 2, p. 34-57.\nR4DS: Chapter 3, p. 43-76 (if read online: Data transformation)\n\n\n\nAdditional resources\n\nR for excel users\nRMarkdown cheatsheet\nRMarkdown reference\nGetting started with RMarkdown\nggplot2 cheatsheet\nSecrets to a happy graphing life\nA Compendium of Clean Graphs in R\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/04/index.html",
+    "href": "reading/04/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 4 class.\n\nRequired readings\n\nQML: Ch. 2, p. 57-69\nR4DS: Ch. 4 and 5, p. 77-109\n\nIf read online:\n\nWorkflow: Scripts\nExploratory Data Analysis\n\n\n\n\n\nAdditional resources\n\nThe tidyverse style guide\nreprex 1\nreprex 2\nData structure basics\nCorrelation game\nStandardizing and correlations\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/05/index.html",
+    "href": "reading/05/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 5 class.\n\nRequired readings\n\nQASS-22: Ch. 1, p. 9-25\nR4DS: Ch. 6 (p. 111-116) and Ch. 9 (p. 147-168)\n\nIf read online:\n\nWorkflow: Projects\nTidy data\n\n\n\n\n\nAdditional resources\n\ntidyr tutorial\nTidy data\nNon-tidy data\nCreating new variables with mutate and ifelse (advanced)\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/06/index.html",
+    "href": "reading/06/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 6 class.\n\nRequired readings\n\nQASS-57: Ch. 1, p. 11-28 (review)\nQASS-22: Ch. 2, p. 26-46\nR4DS: Ch. 8 (p. 125-146) and Ch. 21 (p. 423-440)\n\nIf read online:\n\nData import\nR Markdown\n\n\nSlidify tutorial\n\n\n\nAdditional resources\n\nFit-a-line\nSimple linear regression game\nBivariate linear regression (shiny)\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/07/index.html",
+    "href": "reading/07/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 7 class.\n\nRequired readings\n\nQASS-22: Ch. 3, p. 47-74\nQASS-57: Ch. 2, p. 29-52\nxaringan tutorial 1\nxaringan tutorial 2\n\n\n\nAdditional resources\n\nR Markdown presentations\nModel choices/interactions\nDiagnostics for simple linear regression\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/08/index.html",
+    "href": "reading/08/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 8 class.\n\nRequired readings\n\nQASS-57: Ch. 5, p. 65-80\nQASS-50: Ch. 2, p. 18-25\nQASS-50: Ch. 4, p. 37-50\npapaja documentation: Explore documentation, install package and play with demo example.\n\n\n\nAdditional resources\n\nMulticollinearity\nMore papaja\nR Markdown with papaja (video pt. 1)\nR Markdown with papaja (video pt. 2)\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/08sb/index.html",
+    "href": "reading/08sb/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Recommended readings during week of Spring Break\n\nR4DS: Ch. 22-25\n\nYou should read through these sections and do all the coding examples.\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/09/index.html",
+    "href": "reading/09/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 9 class.\n\nRequired readings\n\nQASS-93: Ch. 2, 3, and 4; p. 7-63\n\n\n\nAdditional resources\n\nModel choices/interactions\nStackOverflow question w/ good answer\nDummy variables (video)\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/10/index.html",
+    "href": "reading/10/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 10 class.\n\nRequired readings\n\nQASS-93: Ch. 5, p. 64-74\n\n\n\nAdditional resources\n\nCoding systems\nCoding schemes for categorical variables in regression\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/11/index.html",
+    "href": "reading/11/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 11 class.\n\nRequired readings\n\nStatistical Rethinking, Ch. 9\nData Analysis Using Regression and Multileve/Hierarchical Models, Ch. 5\nData Analysis Using Regression and Multilevel/Hierarchical Models, Ch. 6\n\n\n\nAdditional resources\n\nGeneralised Linear Models in R\nShiny GLM\nWhen to use logistic regression\nWhy regular regression does NOT work\nWhat is (multivariate) logistic regression\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/12/index.html",
+    "href": "reading/12/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 12 class.\n\nRequired readings\n\nBrown (2021)\n\n\n\nAdditional resources\n\nDeBruine & Barr (2021)\nhttps://shiny.psy.gla.ac.uk/lmem_sim/\nhttp://mfviz.com/hierarchical-models/"
+  },
+  {
+    "objectID": "reading/13/index.html",
+    "href": "reading/13/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 13 class.\n\nRequired readings\n\nBayesian thinking for toddlers\nSeeing theory: Frequentist inference\nSeeing theory: Bayesian inference\nBasic Bayesian analysis\n\n\n\nAdditional reading\n\nInteractive visualization\nhttps://www.tjmahr.com/bayesplot-satrdays-2019/#/"
+  },
+  {
+    "objectID": "reading/14/index.html",
+    "href": "reading/14/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to keep you occupied after S2023.\n\nReadings\n\nCommon statistical tests are linear models\nBayesian statistics with R\nAn introduction to Bayesian Data Analysis for Cognitive Science"
+  },
+  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",

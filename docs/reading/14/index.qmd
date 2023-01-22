@@ -1,0 +1,12 @@
+---
+title: "Readings"
+subtitle: "Week 14"
+---
+
+Readings to keep you occupied after S2023. 
+
+### Readings
+
+- [Common statistical tests are linear models](https://lindeloev.github.io/tests-as-linear/)
+- [Bayesian statistics with R](https://oliviergimenez.github.io/bayesian-stats-with-R/)
+- [An introduction to Bayesian Data Analysis for Cognitive Science](https://vasishth.github.io/bayescogsci/)

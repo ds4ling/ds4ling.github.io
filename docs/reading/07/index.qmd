@@ -1,0 +1,28 @@
+---
+title: "Readings"
+subtitle: "Week 7"
+---
+
+Readings to be completed before week 7 class. 
+
+### Required readings
+
+- **QASS-22**: Ch. 3, p. 47-74
+- **QASS-57**: Ch. 2, p. 29-52
+- [xaringan tutorial 1](https://slides.yihui.name/xaringan/#1)
+- [xaringan tutorial 2](https://www.jvcasillas.com/ru_xaringan/slides/index.html#1)
+
+### Additional resources
+
+- [R Markdown presentations](https://dcl-2017-04.github.io/curriculum/rmarkdown-formats.html)
+- [Model choices/interactions](https://gallery.shinyapps.io/multi_regression/)
+- [Diagnostics for simple linear regression](https://gallery.shinyapps.io/slr_diag/)
+
+### Key 
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)

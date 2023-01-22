@@ -1,0 +1,25 @@
+---
+title: "Readings"
+subtitle: "Spring break"
+---
+
+Recommended readings during week of Spring Break
+
+- **R4DS**: Ch. [22][22]-[25][25]
+
+You should read through these sections and do all the coding examples. 
+
+### Key 
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
+
+
+[22]: http://r4ds.had.co.nz/model-intro.html
+[23]: https://r4ds.had.co.nz/model-basics.html
+[24]: https://r4ds.had.co.nz/model-building.html
+[25]: https://r4ds.had.co.nz/many-models.html

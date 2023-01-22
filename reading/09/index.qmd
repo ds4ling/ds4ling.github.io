@@ -1,0 +1,29 @@
+---
+title: "Readings"
+subtitle: "Week 9"
+---
+
+Readings to be completed before week 9 class. 
+
+### Required readings
+
+- **QASS-93**: Ch. 2, 3, and 4; p. 7-63
+
+
+### Additional resources
+
+- [Model choices/interactions](https://gallery.shinyapps.io/multi_regression/)
+- [StackOverflow question w/ good answer](https://stats.stackexchange.com/questions/94010/understanding-dummy-manual-or-automated-variable-creation-in-glm)
+- [Dummy variables (video)](https://www.youtube.com/watch?v=2s8AwoKZ-UE)
+
+
+
+### Key 
+
+- **R4DS**: R for Data Science
+- **QML**: Quantitative Methods in Linguistics
+- **QASS-22**: Quantitative Applications in the Social Sciences (Vol. 22)
+- **QASS-50**: Quantitative Applications in the Social Sciences (Vol. 50)
+- **QASS-57**: Quantitative Applications in the Social Sciences (Vol. 57)
+- **QASS-93**: Quantitative Applications in the Social Sciences (Vol. 93)
+
