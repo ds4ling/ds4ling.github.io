@@ -5,7 +5,7 @@ subtitle: "Spring break"
 
 Recommended readings during week of Spring Break
 
-- **R4DS**: Ch. [22][22]-[25][25]
+- **R4DS**: Ch. [22][22], [23][23], [24][24], and [25][25]
 
 You should read through these sections and do all the coding examples. 
 
