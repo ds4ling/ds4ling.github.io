@@ -7,7 +7,7 @@ Readings to be completed before week 3 class.
 
 ### Required readings
 
-- **QML**: [Chapter 2](https://www.ds4ling.jvcasillas.com/reading/files/qml_ch_1_2.pdf), p. 34-57.
+- **QML**: [Chapter 2](https://www.jvcasillas.com/syllabi/589/refs/files/qml_ch_1_2.pdf), p. 34-57.
 - **R4DS**: Chapter 3, p. 43-76 (if read online: [Data transformation](http://r4ds.had.co.nz/transform.html))
 
 

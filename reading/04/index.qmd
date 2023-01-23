@@ -8,7 +8,7 @@ Readings to be completed before week 4 class.
 ### Required readings
 
 
-- **QML**: [Ch. 2](https://www.ds4ling.jvcasillas.com/reading/files/qml_ch_1_2.pdf), p. 57-69
+- **QML**: [Ch. 2](https://www.jvcasillas.com/syllabi/589/refs/files/qml_ch_1_2.pdf), p. 57-69
 - **R4DS**: Ch. 4 and 5, p. 77-109
 	- If read online: 
 		- [Workflow: Scripts](http://r4ds.had.co.nz/workflow-scripts.html)
