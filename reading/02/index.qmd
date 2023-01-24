@@ -14,7 +14,7 @@ Readings to be completed before week 2 class.
 		- [Explore](http://r4ds.had.co.nz/explore-intro.html)
 		- [Data visualization](http://r4ds.had.co.nz/data-visualisation.html)
 		- [Workflow basics](http://r4ds.had.co.nz/workflow-basics.html)
-- **QML**: [Chapter 1](https://www.ds4ling.jvcasillas.com/reading/files/qml_ch_1_2.pdf), p. 1-33.
+- **QML**: [Chapter 1](https://www.jvcasillas.com/syllabi/589/refs/files/qml_ch_1_2.pdf), p. 1-33.
 
 ### Additional resources
 
