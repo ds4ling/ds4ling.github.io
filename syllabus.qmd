@@ -20,7 +20,7 @@ readRDS(syl) %>%
   mutate(Slides = as.character(Slides)) %>% 
   mutate( 
     row_id = 1:nrow(.), 
-    show = if_else(row_id > 6, 0, 1), 
+    show = if_else(row_id > 7, 0, 1), 
     Slides = if_else(show == 0, '<i class="fa fa-file-image-o  fa-lg">', .$Slides)
   ) %>% 
   dplyr::select(-Stats, -Programming, -row_id, -show) %>% 
