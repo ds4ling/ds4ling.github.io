@@ -7,9 +7,9 @@ Readings to be completed before week 11 class.
 
 ### Required readings
 
-- [Statistical Rethinking, Ch. 9](https://www.ds4ling.jvcasillas.com/reading/files/statistical_rethinking_ch9.pdf)
-- [Data Analysis Using Regression and Multileve/Hierarchical Models, Ch. 5](https://www.ds4ling.jvcasillas.com/reading/files/gelman_hill_ch5.pdf)
-- [Data Analysis Using Regression and Multilevel/Hierarchical Models, Ch. 6](https://www.ds4ling.jvcasillas.com/reading/files/gelman_hill_ch6.pdf)
+- [Statistical Rethinking, Ch. 9](https://www.jvcasillas.com/syllabi/589/refs/files/statistical_rethinking_ch9.pdf)
+- [Data Analysis Using Regression and Multileve/Hierarchical Models, Ch. 5](https://www.jvcasillas.com/syllabi/589/refs/files/gelman_hill_ch5.pdf)
+- [Data Analysis Using Regression and Multilevel/Hierarchical Models, Ch. 6](https://www.jvcasillas.com/syllabi/589/refs/files/gelman_hill_ch6.pdf)
 
 ### Additional resources
 
