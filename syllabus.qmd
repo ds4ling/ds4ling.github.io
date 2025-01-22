@@ -8,27 +8,27 @@ toc: false
 #| label: syllabus-table
 #| message: false
 #| echo: false
-library("tidyverse")
+library("dplyr")
 library("kableExtra")
 library("glue")
 
 # Get link to rds file
-syl <- url("https://www.jvcasillas.com/syllabi/589/calendar/calendar_s2023.rds")
+syl <- url("https://www.jvcasillas.com/syllabi/658/calendar/calendar_s2025.rds")
 
 # Load file and build table
 readRDS(syl) %>% 
   mutate(Slides = as.character(Slides)) %>% 
   mutate( 
     row_id = 1:nrow(.), 
-    show = if_else(row_id > 15, 0, 1), 
+    show = if_else(row_id > 1, 0, 1), 
     Slides = if_else(show == 0, '<i class="fa fa-file-image-o  fa-lg">', .$Slides)
   ) %>% 
-  dplyr::select(-Stats, -Programming, -row_id, -show) %>% 
+  select(-Stats, -Programming, -row_id, -show) %>% 
   knitr::kable(format = "pandoc", align = c("l", "l", "c", "c", "c"))
 
 ```
 
-Printable versions: <a href="https://www.jvcasillas.com/syllabi/589/index.pdf">syllabus</a> | <a href="https://www.jvcasillas.com/syllabi/589/refs/readings/589_reading_list.pdf">readings</a>  
+Printable versions: <a href="https://www.jvcasillas.com/syllabi/658/index.pdf">syllabus</a> | <a href="https://www.jvcasillas.com/syllabi/658/refs/readings/658_reading_list.pdf">readings</a>  
 Tutorials <a href="https://www.ds4ling.jvcasillas.com/misc/tutorials/index.html">here</a>  
 Online presentation info <a href="https://www.ds4ling.jvcasillas.com/assignments/06_online_presentation/index.html">here</a>  
 <!--PA 5 example <a href="https://github.com/ds4ling/programming_assignments/blob/master/misc/data/pa_5_answers.zip?raw=true">here</a> -->

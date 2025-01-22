@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Github Slack\n\n\n\nR is the statistical programming language we will learn about in this class. You can download R here. We will interface with R using RStudio, a fully feautred IDE. RStudio is available to download here.\n\n\n\n\n\n\n\n\n\n\n\nGithub is a web-based Git version control repository hosting service. It is mostly used for computer code (like Dropbox for nerds). We will use GitHub for project management and sharing reproducible reports.\n\n\n\n\n\n\n\n\n\n\n\nSlack is a communication platform we’ll use to discuss specific topics outside of class. It also serves as a resource for students to ask questions and exchange information relevant to the course. You will receive an email with an invitation link to join the course Slack. For personal matters (only) you can email the professor."
+  },
+  {
+    "objectID": "reading/14/index.html",
+    "href": "reading/14/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to keep you occupied after S2023.\n\nReadings\n\nCommon statistical tests are linear models\nBayesian statistics with R\nAn introduction to Bayesian Data Analysis for Cognitive Science"
+  },
+  {
+    "objectID": "reading/12/index.html",
+    "href": "reading/12/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 12 class.\n\nRequired readings\n\nBrown (2021)\n\n\n\nAdditional resources\n\nDeBruine & Barr (2021)\nhttps://shiny.psy.gla.ac.uk/lmem_sim/\nhttp://mfviz.com/hierarchical-models/"
+  },
+  {
+    "objectID": "reading/10/index.html",
+    "href": "reading/10/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 10 class.\n\nRequired readings\n\nQASS-93: Ch. 5, p. 64-74\n\n\n\nAdditional resources\n\nCoding systems\nCoding schemes for categorical variables in regression\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/08sb/index.html",
+    "href": "reading/08sb/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Recommended readings during week of Spring Break\n\nR4DS: Ch. 22, 23, 24, and 25\n\nYou should read through these sections and do all the coding examples.\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/07/index.html",
+    "href": "reading/07/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 7 class.\n\nRequired readings\n\nQASS-22: Ch. 3, p. 47-74\nQASS-57: Ch. 2, p. 29-52\nxaringan tutorial 1\nxaringan tutorial 2\n\n\n\nAdditional resources\n\nR Markdown presentations\nModel choices/interactions\nDiagnostics for simple linear regression\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/05/index.html",
+    "href": "reading/05/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 5 class.\n\nRequired readings\n\nQASS-22: Ch. 1, p. 9-25\nR4DS: Ch. 6 (p. 111-116) and Ch. 9 (p. 147-168)\n\nIf read online:\n\nWorkflow: Projects\nTidy data\n\n\n\n\n\nAdditional resources\n\ntidyr tutorial\nTidy data\nNon-tidy data\nCreating new variables with mutate and ifelse (advanced)\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "reading/03/index.html",
+    "href": "reading/03/index.html",
+    "title": "Readings",
+    "section": "",
+    "text": "Readings to be completed before week 3 class.\n\nRequired readings\n\nQML: Chapter 2, p. 34-57.\nR4DS: Chapter 3, p. 43-76 (if read online: Data transformation)\n\n\n\nAdditional resources\n\nR for excel users\nRMarkdown cheatsheet\nRMarkdown reference\nGetting started with RMarkdown\nggplot2 cheatsheet\nSecrets to a happy graphing life\nA Compendium of Clean Graphs in R\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
+  },
+  {
+    "objectID": "policies.html",
+    "href": "policies.html",
+    "title": "Policies",
+    "section": "",
+    "text": "Your final grade will be comprised of the following:\n\n\n\nItem\n%\n\n\n\n\nPreparation and participation\n15%\n\n\nProgramming assignments\n40%\n\n\nOnline presentation\n10%\n\n\nMidterm exam\n15%\n\n\nResearch project\n20%\n\n\n- paper (8%)\n\n\n\n- presentation (6%)\n\n\n\n- peer review (6%)"
+  },
+  {
+    "objectID": "policies.html#department-rules-and-course-policy",
+    "href": "policies.html#department-rules-and-course-policy",
+    "title": "Policies",
+    "section": "Department rules and course policy",
+    "text": "Department rules and course policy\nThe course is designed to satisfy the learning goals of the Department of Spanish and Portuguese. More information available at: http://span-port.rutgers.edu/learning-goals\n\nCommunication\nAll course communication will be via Slack. You should have received an email with an invitation link to join the course Slack. Some rules for using Slack:\n\nUse an identifiable username and add your picture to your profile.\nOnly the professor is allowed to use the @channel and @here mentions.\nWhile this is an informal communication channel, all rules of academic discourse apply.\nAsk and answer questions on the appropriate channel.\nCreate channels as needed, especially for group presentations.\n\n\n\nAttendance\nRegular class attendance is essential for successful completion of the course. More than 1 absence will have a negative effect on your final grade. Arriving to class ten minutes late is considered an absence. The 2nd absence and every subsequent absence after that will result in the loss of 5% point off the final overall course grade, regardless of reason. Keep in mind that while you have 1 “free” absence, on the day/s you miss you will not be able to earn participation points, and you will miss the material given in class. If you are absent, contact a classmate immediately to get the assignments and to keep up with the material scheduled in the syllabus. The instructor is not responsible to put you up to date. Do not send emails to the instructor asking for updates if you missed class (i.e. “I was absent today. Did we do anything important?”). More information regarding the university policy on self-reporting absences is available here: https://sims.rutgers.edu/ssra/\nAny planned absence that you are aware of ahead of time, such as religious holidays recognized by Rutgers University or Dean’s excuses, should be made up before the absence occurs. If you know that you will be absent, it is your responsibility to let the instructor know ahead of time. All holidays or special events observed by any religion will be honored for those students who show affiliation with that particular religion. Absences pre-approved by the RU Dean of Students (or Dean’s designee) will be honored. More information available here: https://scheduling.rutgers.edu/scheduling/religious-holiday-policy\n\n\nCode of academic integrity\nThe professor will initiate an academic integrity case against students suspected of cheating, plagiarizing, or aiding others in dishonest academic behavior. Students are responsible for reading and understanding the Code of Academic Integrity.\nExamples of academic dishonesty include, but are not limited to, plagiarism, cheating, and aiding and abetting dishonesty. An example of plagiarism would be to submit a written sample which in part or in whole is not the student’s own work without attributing the source. Cheating includes allowing another person to do your work and to submit the work under one’s own name. Any work which is submitted for a grade must be 100% the student’s own work. If you are not sure when it is appropriate to seek help, please see the professor.\n\nPlagiarism is the use of another person’s words, ideas, or results without giving that person appropriate credit. Do not plagiarize.\nRutgers University Academic Integrity Policy: http://academicintegrity.rutgers.edu/\n\nFor more information\n\nhttp://academicintegrity.rutgers.edu/\nhttp://www.libraries.rutgers.edu/avoid_plagiarism.\n\n\n\nStudents with disabilities\nRutgers University welcomes students with disabilities into all of the University’s educational programs. In order to receive consideration for reasonable accommodations, a student with a disability must contact the appropriate disability services office at the campus where you are officially enrolled, participate in an intake interview, and provide documentation: https://ods.rutgers.edu/students/documentation-guidelines.\nIf the documentation supports your request for reasonable accommodations, your campus’s disability services office will provide you with a Letter of Accommodations. Please share this letter with your instructors and discuss the accommodations with them as early in your courses as possible. To begin this process, please complete the Registration form on the ODS web site at: https://ods.rutgers.edu/students/registration-form."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -35,32 +105,11 @@
     "text": "The following links will help get you started with the initial set-up for some data science-related programs.\n\ndata_structures_intro\ngithub_setup\nplotting_tutorial\nr_install\nrmarkdown_tutorial\nrstudio_install\nrstudio_projects\nslack_setup\ntidyverse_overview"
   },
   {
-    "objectID": "policies.html",
-    "href": "policies.html",
-    "title": "Policies",
-    "section": "",
-    "text": "Your final grade will be comprised of the following:\n\n\n\nItem\n%\n\n\n\n\nPreparation and participation\n15%\n\n\nProgramming assignments\n40%\n\n\nOnline presentation\n10%\n\n\nMidterm exam\n15%\n\n\nResearch project\n20%\n\n\n- paper (8%)\n\n\n\n- presentation (6%)\n\n\n\n- peer review (6%)"
-  },
-  {
-    "objectID": "policies.html#department-rules-and-course-policy",
-    "href": "policies.html#department-rules-and-course-policy",
-    "title": "Policies",
-    "section": "Department rules and course policy",
-    "text": "Department rules and course policy\nThe course is designed to satisfy the learning goals of the Department of Spanish and Portuguese. More information available at: http://span-port.rutgers.edu/learning-goals\n\nCommunication\nAll course communication will be via Slack. You should have received an email with an invitation link to join the course Slack. Some rules for using Slack:\n\nUse an identifiable username and add your picture to your profile.\nOnly the professor is allowed to use the @channel and @here mentions.\nWhile this is an informal communication channel, all rules of academic discourse apply.\nAsk and answer questions on the appropriate channel.\nCreate channels as needed, especially for group presentations.\n\n\n\nAttendance\nRegular class attendance is essential for successful completion of the course. More than 1 absence will have a negative effect on your final grade. Arriving to class ten minutes late is considered an absence. The 2nd absence and every subsequent absence after that will result in the loss of 5% point off the final overall course grade, regardless of reason. Keep in mind that while you have 1 “free” absence, on the day/s you miss you will not be able to earn participation points, and you will miss the material given in class. If you are absent, contact a classmate immediately to get the assignments and to keep up with the material scheduled in the syllabus. The instructor is not responsible to put you up to date. Do not send emails to the instructor asking for updates if you missed class (i.e. “I was absent today. Did we do anything important?”). More information regarding the university policy on self-reporting absences is available here: https://sims.rutgers.edu/ssra/\nAny planned absence that you are aware of ahead of time, such as religious holidays recognized by Rutgers University or Dean’s excuses, should be made up before the absence occurs. If you know that you will be absent, it is your responsibility to let the instructor know ahead of time. All holidays or special events observed by any religion will be honored for those students who show affiliation with that particular religion. Absences pre-approved by the RU Dean of Students (or Dean’s designee) will be honored. More information available here: https://scheduling.rutgers.edu/scheduling/religious-holiday-policy\n\n\nCode of academic integrity\nThe professor will initiate an academic integrity case against students suspected of cheating, plagiarizing, or aiding others in dishonest academic behavior. Students are responsible for reading and understanding the Code of Academic Integrity.\nExamples of academic dishonesty include, but are not limited to, plagiarism, cheating, and aiding and abetting dishonesty. An example of plagiarism would be to submit a written sample which in part or in whole is not the student’s own work without attributing the source. Cheating includes allowing another person to do your work and to submit the work under one’s own name. Any work which is submitted for a grade must be 100% the student’s own work. If you are not sure when it is appropriate to seek help, please see the professor.\n\nPlagiarism is the use of another person’s words, ideas, or results without giving that person appropriate credit. Do not plagiarize.\nRutgers University Academic Integrity Policy: http://academicintegrity.rutgers.edu/\n\nFor more information\n\nhttp://academicintegrity.rutgers.edu/\nhttp://www.libraries.rutgers.edu/avoid_plagiarism.\n\n\n\nStudents with disabilities\nRutgers University welcomes students with disabilities into all of the University’s educational programs. In order to receive consideration for reasonable accommodations, a student with a disability must contact the appropriate disability services office at the campus where you are officially enrolled, participate in an intake interview, and provide documentation: https://ods.rutgers.edu/students/documentation-guidelines.\nIf the documentation supports your request for reasonable accommodations, your campus’s disability services office will provide you with a Letter of Accommodations. Please share this letter with your instructors and discuss the accommodations with them as early in your courses as possible. To begin this process, please complete the Registration form on the ODS web site at: https://ods.rutgers.edu/students/registration-form."
-  },
-  {
     "objectID": "reading/02/index.html",
     "href": "reading/02/index.html",
     "title": "Readings",
     "section": "",
     "text": "Readings to be completed before week 2 class.\n\nRequired readings\n\nWhickham 2015\nR4DS: Preface and Chapters 1 and 2, p. ix-41.\n\nIf read online:\n\nIntro\nExplore\nData visualization\nWorkflow basics\n\n\nQML: Chapter 1, p. 1-33.\n\n\n\nAdditional resources\n\nField Guide to the R Ecosystem (highly recommended)\nData science and R: How do I start?\nGitHub for the useR\nUsing Git and GitHub\nGetting help\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
-  },
-  {
-    "objectID": "reading/03/index.html",
-    "href": "reading/03/index.html",
-    "title": "Readings",
-    "section": "",
-    "text": "Readings to be completed before week 3 class.\n\nRequired readings\n\nQML: Chapter 2, p. 34-57.\nR4DS: Chapter 3, p. 43-76 (if read online: Data transformation)\n\n\n\nAdditional resources\n\nR for excel users\nRMarkdown cheatsheet\nRMarkdown reference\nGetting started with RMarkdown\nggplot2 cheatsheet\nSecrets to a happy graphing life\nA Compendium of Clean Graphs in R\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
   },
   {
     "objectID": "reading/04/index.html",
@@ -70,25 +119,11 @@
     "text": "Readings to be completed before week 4 class.\n\nRequired readings\n\nQML: Ch. 2, p. 57-69\nR4DS: Ch. 4 and 5, p. 77-109\n\nIf read online:\n\nWorkflow: Scripts\nExploratory Data Analysis\n\n\n\n\n\nAdditional resources\n\nThe tidyverse style guide\nreprex 1\nreprex 2\nData structure basics\nCorrelation game\nStandardizing and correlations\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
   },
   {
-    "objectID": "reading/05/index.html",
-    "href": "reading/05/index.html",
-    "title": "Readings",
-    "section": "",
-    "text": "Readings to be completed before week 5 class.\n\nRequired readings\n\nQASS-22: Ch. 1, p. 9-25\nR4DS: Ch. 6 (p. 111-116) and Ch. 9 (p. 147-168)\n\nIf read online:\n\nWorkflow: Projects\nTidy data\n\n\n\n\n\nAdditional resources\n\ntidyr tutorial\nTidy data\nNon-tidy data\nCreating new variables with mutate and ifelse (advanced)\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
-  },
-  {
     "objectID": "reading/06/index.html",
     "href": "reading/06/index.html",
     "title": "Readings",
     "section": "",
     "text": "Readings to be completed before week 6 class.\n\nRequired readings\n\nQASS-57: Ch. 1, p. 11-28 (review)\nQASS-22: Ch. 2, p. 26-46\nR4DS: Ch. 8 (p. 125-146) and Ch. 21 (p. 423-440)\n\nIf read online:\n\nData import\nR Markdown\n\n\nSlidify tutorial\n\n\n\nAdditional resources\n\nFit-a-line\nSimple linear regression game\nBivariate linear regression (shiny)\nOrdinary least squares regression visualization\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
-  },
-  {
-    "objectID": "reading/07/index.html",
-    "href": "reading/07/index.html",
-    "title": "Readings",
-    "section": "",
-    "text": "Readings to be completed before week 7 class.\n\nRequired readings\n\nQASS-22: Ch. 3, p. 47-74\nQASS-57: Ch. 2, p. 29-52\nxaringan tutorial 1\nxaringan tutorial 2\n\n\n\nAdditional resources\n\nR Markdown presentations\nModel choices/interactions\nDiagnostics for simple linear regression\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
   },
   {
     "objectID": "reading/08/index.html",
@@ -98,25 +133,11 @@
     "text": "Readings to be completed before week 8 class.\n\nRequired readings\n\nQASS-57: Ch. 5, p. 65-80\nQASS-50: Ch. 2, p. 18-25\nQASS-50: Ch. 4, p. 37-50\npapaja documentation: Explore documentation, install package and play with demo example.\n\n\n\nAdditional resources\n\nMulticollinearity\nMore papaja\nR Markdown with papaja (video pt. 1)\nR Markdown with papaja (video pt. 2)\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
   },
   {
-    "objectID": "reading/08sb/index.html",
-    "href": "reading/08sb/index.html",
-    "title": "Readings",
-    "section": "",
-    "text": "Recommended readings during week of Spring Break\n\nR4DS: Ch. 22, 23, 24, and 25\n\nYou should read through these sections and do all the coding examples.\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
-  },
-  {
     "objectID": "reading/09/index.html",
     "href": "reading/09/index.html",
     "title": "Readings",
     "section": "",
     "text": "Readings to be completed before week 9 class.\n\nRequired readings\n\nQASS-93: Ch. 2, 3, and 4; p. 7-63\n\n\n\nAdditional resources\n\nModel choices/interactions\nStackOverflow question w/ good answer\nDummy variables (video)\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
-  },
-  {
-    "objectID": "reading/10/index.html",
-    "href": "reading/10/index.html",
-    "title": "Readings",
-    "section": "",
-    "text": "Readings to be completed before week 10 class.\n\nRequired readings\n\nQASS-93: Ch. 5, p. 64-74\n\n\n\nAdditional resources\n\nCoding systems\nCoding schemes for categorical variables in regression\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
   },
   {
     "objectID": "reading/11/index.html",
@@ -126,13 +147,6 @@
     "text": "Readings to be completed before week 11 class.\n\nRequired readings\n\nStatistical Rethinking, Ch. 9\nData Analysis Using Regression and Multileve/Hierarchical Models, Ch. 5\nData Analysis Using Regression and Multilevel/Hierarchical Models, Ch. 6\n\n\n\nAdditional resources\n\nGeneralised Linear Models in R\nShiny GLM\nWhen to use logistic regression\nWhy regular regression does NOT work\nWhat is (multivariate) logistic regression\n\n\n\nKey\n\nR4DS: R for Data Science\nQML: Quantitative Methods in Linguistics\nQASS-22: Quantitative Applications in the Social Sciences (Vol. 22)\nQASS-50: Quantitative Applications in the Social Sciences (Vol. 50)\nQASS-57: Quantitative Applications in the Social Sciences (Vol. 57)\nQASS-93: Quantitative Applications in the Social Sciences (Vol. 93)"
   },
   {
-    "objectID": "reading/12/index.html",
-    "href": "reading/12/index.html",
-    "title": "Readings",
-    "section": "",
-    "text": "Readings to be completed before week 12 class.\n\nRequired readings\n\nBrown (2021)\n\n\n\nAdditional resources\n\nDeBruine & Barr (2021)\nhttps://shiny.psy.gla.ac.uk/lmem_sim/\nhttp://mfviz.com/hierarchical-models/"
-  },
-  {
     "objectID": "reading/13/index.html",
     "href": "reading/13/index.html",
     "title": "Readings",
@@ -140,24 +154,10 @@
     "text": "Readings to be completed before week 13 class.\n\nRequired readings\n\nBayesian thinking for toddlers\nSeeing theory: Frequentist inference\nSeeing theory: Bayesian inference\nBasic Bayesian analysis\n\n\n\nAdditional reading\n\nInteractive visualization\nhttps://www.tjmahr.com/bayesplot-satrdays-2019/#/"
   },
   {
-    "objectID": "reading/14/index.html",
-    "href": "reading/14/index.html",
-    "title": "Readings",
-    "section": "",
-    "text": "Readings to keep you occupied after S2023.\n\nReadings\n\nCommon statistical tests are linear models\nBayesian statistics with R\nAn introduction to Bayesian Data Analysis for Cognitive Science"
-  },
-  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Date\nTopic\nReading\nSlides\nAssignment\n\n\n\n\nWeek 1: 01/23\nGetting started. GitHub, R, and RStudio.\n\n\n\n\n\nWeek 2: 01/30\nDistributions.\n\n\n\n\n\nWeek 3: 02/06\nNHST, comparing means.\n\n\n\n\n\nWeek 4: 02/13\nBivariate correlation.\n\n\n\n\n\nWeek 5: 02/20\nThe linear model/regression.\n\n\n\n\n\nWeek 6: 02/27\nThe linear model/regression.\n\n\n\n\n\nWeek 7: 03/06\nThe linear model/regression.\n\n\n\n\n\n03/11 - 03/19\nSpring break.\n\n\n\n\n\nWeek 8: 03/20\nThe linear model/regression.\n\n\n\n\n\nWeek 9: 03/27\nGeneral linear model.\n\n\n\n\n\nWeek 10: 04/03\nGeneral linear model.\n\n\n\n\n\nWeek 11: 04/10\nGeneralized linear model. Online presentations due.\n\n\n\n\n\nWeek 12: 04/17\nMultilevel models. Online presentation comments due.\n\n\n\n\n\nWeek 13: 04/24\nBayesian inference. Mid-term\n\n\n\n\n\nWeek 14: 05/01\nResearch project presentations, residuals.\n\n\n\n\n\nWeek 15: 05/03\nReading day.\n\n\n\n\n\nWeek 16: 05/10\nFinal exam day. Projects due before 12pm.\n\n\n\n\n\n\n\n\nPrintable versions: syllabus | readings\nTutorials here\nOnline presentation info here"
-  },
-  {
-    "objectID": "tools.html",
-    "href": "tools.html",
-    "title": "Tools",
-    "section": "",
-    "text": "Github Slack\n\n\n\nR is the statistical programming language we will learn about in this class. You can download R here. We will interface with R using RStudio, a fully feautred IDE. RStudio is available to download here.\n\n\n\n\n\n\n\n\n\n\n\nGithub is a web-based Git version control repository hosting service. It is mostly used for computer code (like Dropbox for nerds). We will use GitHub for project management and sharing reproducible reports.\n\n\n\n\n\n\n\n\n\n\n\nSlack is a communication platform we’ll use to discuss specific topics outside of class. It also serves as a resource for students to ask questions and exchange information relevant to the course. You will receive an email with an invitation link to join the course Slack. For personal matters (only) you can email the professor."
+    "text": "Date\nTopic\nReading\nSlides\nAssignment\n\n\n\n\nWeek 1: 01/27\nGetting started. GitHub, R, and RStudio.\n\n\n\n\n\nWeek 2: 02/03\nDistributions.\n\n\n\n\n\nWeek 3: 02/10\nNHST, comparing means.\n\n\n\n\n\nWeek 4: 02/17\nBivariate correlation.\n\n\n\n\n\nWeek 5: 02/24\nThe linear model/regression.\n\n\n\n\n\nWeek 6: 03/03\nThe linear model/regression.\n\n\n\n\n\nWeek 7: 03/10\nThe linear model/regression.\n\n\n\n\n\n03/15 - 03/23\nSpring break.\n\n\n\n\n\nWeek 8: 03/24\nThe linear model/regression.\n\n\n\n\n\nWeek 9: 03/31\nGeneral linear model.\n\n\n\n\n\nWeek 10: 04/07\nGeneral linear model.\n\n\n\n\n\nWeek 11: 04/14\nGeneralized linear model. Online presentations due.\n\n\n\n\n\nWeek 12: 04/21\nMultilevel models. Online presentation comments due.\n\n\n\n\n\nWeek 13: 04/28\nBayesian inference. Mid-term\n\n\n\n\n\nWeek 14: 05/05\nResearch project presentations, residuals.\n\n\n\n\n\nWeek 15: 05/06\nReading day.\n\n\n\n\n\nWeek 16: 05/12\nFinal exam day. Projects due before 12pm.\n\n\n\n\n\n\n\n\nPrintable versions: syllabus | readings\nTutorials here\nOnline presentation info here"
   }
 ]

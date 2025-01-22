@@ -37,7 +37,7 @@ All statistical programming assignments must be completed in RMarkdown and will 
 The presentation will be on the statistical analyses used in some published  paper. 
 This presentation must be hosted on GitHub and in HTML format using RMarkdown. 
 Aside from creating an online presentation, students will also be required to read and comment on the presentations of two classmates. 
-More information available [here](https://ds4ling.github.io/assignments/06_online_presentation/index.html)
+More information available [here](https://www.ds4ling.jvcasillas.com/assignments/06_online_presentation/index.html)
 
 ### Midterm exam
 
@@ -77,7 +77,7 @@ Projects are due on the day and time of the university assigned final exam (thou
 
 The manuscript will be a write up of the methods/results sections of a research article. 
 The focus is on clearly and accurately explaining the statistical analyses used in the project and appropriately interpreting the results. 
-The paper must be a literate document written in RMarkdown using ```papaja```. 
+The paper must be a literate document written in Quarto or RMarkdown. 
 We will demo this in class.
 
 #### Presentation

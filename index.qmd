@@ -11,8 +11,8 @@ toc: false
 #| out.width: "100%"
 #| fig.height: 6
 #| fig.width: 15
-#| fig.retina: 2
 #| fig.align: "center"
+#| dpi: 300
 
 library("tidyverse")
 library("kableExtra")
@@ -23,18 +23,25 @@ library("tidybayes")
 mod <- brm(mpg ~ s(wt), data = mtcars, file = here::here("misc", "mod"))
 set.seed(2023)
 
-post <- mod %>% 
+post <- mod |> 
   emmeans(specs = ~ wt, 
     at = list(wt = seq(0.9, 6.1, length.out = 50)), 
     epred = TRUE) 
 
-post %>% 
-  gather_emmeans_draws() %>% 
-  filter(.draw %in% 1:80) %>% 
-  ggplot(., aes(x = wt, y = .value)) + 
-  geom_line(aes(group = .draw, x = wt, y = .value), linewidth = 0.75, alpha = 0.1) + 
-  geom_point(data = mtcars, aes(x = wt, y = mpg), color = "white", size = 2.5) + 
-  geom_point(data = mtcars, aes(x = wt, y = mpg), color = "blue", size = 2) + 
+post |> 
+  gather_emmeans_draws() |> 
+  filter(.draw %in% 1:80) |> 
+  ggplot() + 
+  aes(x = wt, y = .value) + 
+  geom_line(
+    aes(group = .draw, x = wt, y = .value), 
+    linewidth = 0.75, alpha = 0.1
+  ) + 
+  geom_point(
+    data = mtcars, 
+    aes(x = wt, y = mpg), 
+    fill = "#cc0033", color = "white", pch = 21, size = 3
+  ) + 
   coord_cartesian(expand = F) + 
   theme_void()
 ```
