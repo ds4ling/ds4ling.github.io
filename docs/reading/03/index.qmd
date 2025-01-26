@@ -7,7 +7,7 @@ Readings to be completed before week 3 class.
 
 ### Required readings
 
-- **QML**: [Chapter 2](https://www.jvcasillas.com/syllabi/589/refs/files/qml_ch_1_2.pdf), p. 34-57.
+- **QML**: [Chapter 2](https://www.jvcasillas.com/syllabi/658/refs/files/qml_ch_1_2.pdf), p. 34-57.
 - **R4DS**: Chapter 3, p. 43-76 (if read online: [Data transformation](http://r4ds.had.co.nz/transform.html))
 
 
@@ -25,7 +25,7 @@ Readings to be completed before week 3 class.
 
 - **R4DS**: R for Data Science
 - **QML**: Quantitative Methods in Linguistics
-- **QASS-22**: [Quantitative Applications in the Social Sciences (Vol. 22)](https://www.jvcasillas.com/syllabi/589/refs/files/qass_22_applied_regression_an_introduction.pdf)
-- **QASS-50**: [Quantitative Applications in the Social Sciences (Vol. 50)](https://www.jvcasillas.com/syllabi/589/refs/files/qass_50_multiple_regression_in_practice.pdf)
-- **QASS-57**: [Quantitative Applications in the Social Sciences (Vol. 57)](https://www.jvcasillas.com/syllabi/589/refs/files/qass_57_understanding_regression_analysis_an_introductory_guide.pdf)
-- **QASS-93**: [Quantitative Applications in the Social Sciences (Vol. 93)](https://www.jvcasillas.com/syllabi/589/refs/files/qass_93_regression_with_dummy_variables.pdf)
+- **QASS-22**: [Quantitative Applications in the Social Sciences (Vol. 22)](https://www.jvcasillas.com/syllabi/658/refs/files/qass_22_applied_regression_an_introduction.pdf)
+- **QASS-50**: [Quantitative Applications in the Social Sciences (Vol. 50)](https://www.jvcasillas.com/syllabi/658/refs/files/qass_50_multiple_regression_in_practice.pdf)
+- **QASS-57**: [Quantitative Applications in the Social Sciences (Vol. 57)](https://www.jvcasillas.com/syllabi/658/refs/files/qass_57_understanding_regression_analysis_an_introductory_guide.pdf)
+- **QASS-93**: [Quantitative Applications in the Social Sciences (Vol. 93)](https://www.jvcasillas.com/syllabi/658/refs/files/qass_93_regression_with_dummy_variables.pdf)
