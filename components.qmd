@@ -35,8 +35,8 @@ toc: false
 - Multiple regression and correlation
 - The linear model
 - The generalized linear model
-- Model assessment
-- Model specification
+- Model assessment, specification
+- Bayesian data analysis
 
 ## <i class="fa fa-comments"></i> Communicate
 
@@ -44,10 +44,10 @@ toc: false
 
 ### Topics:
 
-- RMarkdown
+- RMarkdown, Quarto
 - knitr
 - papaja
-- xaringan
+- xaringan, revealjs
 - git
 
 :::

@@ -11,7 +11,8 @@ toc: false
 
 R is the statistical programming language we will learn about in this class. 
 You can download R <a href="https://cran.r-project.org" target="_blank">here</a>. 
-We will interface with R using RStudio, a fully feautred IDE. RStudio is available to download <a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank">here</a>.
+We will interface with R using the fully feautred IDEs RStudio and Positron. RStudio is available to download <a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank">here</a>. 
+You can find Positron <a href="https://positron.posit.co/start.html" target="_blank">here</a>.
 
 ## <i class="fa fa-github"></i> Github
 
@@ -28,6 +29,7 @@ knitr::include_graphics(
 <a href="http://www.github.com" target="_blank">Github</a> is a  web-based Git version control repository hosting service. 
 It is mostly used for computer code (like Dropbox for nerds). 
 We will use GitHub for project management and sharing reproducible reports.
+We will interface with Github via the <a href="https://github.com/apps/desktop" target="_blank">Github Desktop app</a> and RStudio/Positron.
 
 ## <i class="fa fa-slack"></i> Slack
 

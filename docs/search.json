@@ -4,7 +4,7 @@
     "href": "tools.html",
     "title": "Tools",
     "section": "",
-    "text": "Github Slack\n\n\n\nR is the statistical programming language we will learn about in this class. You can download R here. We will interface with R using RStudio, a fully feautred IDE. RStudio is available to download here.\n\n\n\n\n\n\n\n\n\n\n\nGithub is a web-based Git version control repository hosting service. It is mostly used for computer code (like Dropbox for nerds). We will use GitHub for project management and sharing reproducible reports.\n\n\n\n\n\n\n\n\n\n\n\nSlack is a communication platform we’ll use to discuss specific topics outside of class. It also serves as a resource for students to ask questions and exchange information relevant to the course. You will receive an email with an invitation link to join the course Slack. For personal matters (only) you can email the professor."
+    "text": "Github Slack\n\n\n\nR is the statistical programming language we will learn about in this class. You can download R here. We will interface with R using the fully feautred IDEs RStudio and Positron. RStudio is available to download here. You can find Positron here.\n\n\n\n\n\n\n\n\n\n\n\nGithub is a web-based Git version control repository hosting service. It is mostly used for computer code (like Dropbox for nerds). We will use GitHub for project management and sharing reproducible reports. We will interface with Github via the Github Desktop app and RStudio/Positron.\n\n\n\n\n\n\n\n\n\n\n\nSlack is a communication platform we’ll use to discuss specific topics outside of class. It also serves as a resource for students to ask questions and exchange information relevant to the course. You will receive an email with an invitation link to join the course Slack. For personal matters (only) you can email the professor."
   },
   {
     "objectID": "reading/14/index.html",
@@ -95,7 +95,7 @@
     "href": "components.html",
     "title": "Components",
     "section": "",
-    "text": "Tidy Visualize Model Communicate\n\n\n\n\nTopics:\n\nTidyverse\nImporting, cleaning/tidying data\nSubsetting\nCreating and transforming variables\nPreparing data for visualization and analysis\n\n\n\n\n\n\nTopics:\n\nGrammar of graphics\nggplot2\n\n\n\n\n\n\nTopics:\n\nMultiple regression and correlation\nThe linear model\nThe generalized linear model\nModel assessment\nModel specification\n\n\n\n\n\n\nTopics:\n\nRMarkdown\nknitr\npapaja\nxaringan\ngit"
+    "text": "Tidy Visualize Model Communicate\n\n\n\n\nTopics:\n\nTidyverse\nImporting, cleaning/tidying data\nSubsetting\nCreating and transforming variables\nPreparing data for visualization and analysis\n\n\n\n\n\n\nTopics:\n\nGrammar of graphics\nggplot2\n\n\n\n\n\n\nTopics:\n\nMultiple regression and correlation\nThe linear model\nThe generalized linear model\nModel assessment, specification\nBayesian data analysis\n\n\n\n\n\n\nTopics:\n\nRMarkdown, Quarto\nknitr\npapaja\nxaringan, revealjs\ngit"
   },
   {
     "objectID": "misc/tutorials/index.html",
