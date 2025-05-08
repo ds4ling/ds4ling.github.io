@@ -31,7 +31,7 @@ syl |>
 Printable versions: <a href="https://www.jvcasillas.com/syllabi/658/index.pdf">syllabus</a> | <a href="https://www.jvcasillas.com/syllabi/658/refs/readings/658_reading_list.pdf">readings</a>  
 Tutorials <a href="https://www.ds4ling.jvcasillas.com/misc/tutorials/index.html">here</a>  
 Online presentation info <a href="https://www.ds4ling.jvcasillas.com/assignments/06_online_presentation/index.html">here</a>  
-<!--PA 5 example <a href="https://github.com/ds4ling/programming_assignments/blob/master/misc/data/pa_5_answers.zip?raw=true">here</a> -->
+PA 5 example <a href="https://www.ds4ling.jvcasillas.com/programming_assignments/misc/data/pa_5_answers/">here</a>
 
 
 <link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
