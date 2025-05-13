@@ -91,6 +91,7 @@ Each student is required to evaluate the project of two other students.
 They will fork the project in order to evaluate the reproducibility of the code and the statistical validity of the analysis. 
 Students will write up two evaluations for each peer: one for the professor (not to be seen by anybody else), and one for the owner of the project in the form of a issue/comment on Github. 
 The evaluation written for the professor should be longer and more in depth. 
+It will be submitted via email. 
 Both evaluations should be written in the style of a peer review for an academic journal, thus they should include comments, questions, suggestions, and *constructive* criticisms (\#BeReviewer1). 
 The point of this exercise is to help the author make the final product better.
 
