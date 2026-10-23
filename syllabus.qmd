@@ -21,7 +21,7 @@ syl |>
   mutate(Slides = as.character(Slides)) |> 
   mutate( 
     row_id = 1:nrow(syl), 
-    show = if_else(row_id > 15, 0, 1), 
+    show = if_else(row_id > 0, 0, 1), 
     Slides = if_else(show == 0, '<i class="fa fa-file-image-o  fa-lg">', Slides)
   ) |> 
   select(-Stats, -Programming, -row_id, -show) |> 
@@ -31,8 +31,9 @@ syl |>
 Printable versions: <a href="https://www.jvcasillas.com/syllabi/658/index.pdf">syllabus</a> | <a href="https://www.jvcasillas.com/syllabi/658/refs/readings/658_reading_list.pdf">readings</a>  
 Tutorials <a href="https://www.ds4ling.jvcasillas.com/misc/tutorials/index.html">here</a>  
 Online presentation info <a href="https://www.ds4ling.jvcasillas.com/assignments/06_online_presentation/index.html">here</a>  
+<!--
 PA 5 example <a href="https://www.ds4ling.jvcasillas.com/programming_assignments/misc/data/pa_5_answers/">here</a>
-
+-->
 
 <link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
 

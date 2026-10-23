@@ -13,6 +13,7 @@ toc: false
 #| fig.width: 15
 #| fig.align: "center"
 #| dpi: 300
+#| warning: false
 
 library("tidyverse")
 library("kableExtra")
